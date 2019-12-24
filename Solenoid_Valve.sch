@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Solenoid_Valve-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -131,10 +130,6 @@ Wire Wire Line
 	1350 1950 1000 1950
 Connection ~ 1350 1950
 Wire Wire Line
-	2800 1150 2800 1300
-Wire Wire Line
-	3700 1150 2800 1150
-Wire Wire Line
 	5450 3000 5450 3100
 Wire Wire Line
 	1350 1950 1350 2100
@@ -143,15 +138,10 @@ Wire Wire Line
 Wire Wire Line
 	900  1650 1000 1650
 Wire Wire Line
-	2300 2000 2800 2000
-Wire Wire Line
-	2300 1600 2800 1600
-Wire Wire Line
 	3700 1150 3950 1150
 Wire Wire Line
 	3700 1050 3700 1150
 Connection ~ 3700 1150
-Connection ~ 2800 1600
 Wire Wire Line
 	3700 3300 3700 3400
 Wire Wire Line
@@ -257,7 +247,7 @@ F 3 "~" H 1700 1800 50  0001 C CNN
 $EndComp
 Text GLabel 5750 3400 0    50   Input ~ 0
 NRST
-Text GLabel 3100 1600 1    50   Input ~ 0
+Text GLabel 3200 1600 0    50   Input ~ 0
 NRST
 Text GLabel 4200 3100 2    50   Input ~ 0
 VCP_RX
@@ -306,39 +296,6 @@ F 3 "~" H 4100 1150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Switch:SW_Push SW1
-U 1 1 5D5B7C98
-P 2800 1800
-F 0 "SW1" V 2754 1752 50  0000 R CNN
-F 1 "SW_Push" V 2845 1752 50  0000 R CNN
-F 2 "SamacSys_Parts:PTS647SM38SMTR2LFS" H 2800 2000 50  0001 C CNN
-F 3 "~" H 2800 2000 50  0001 C CNN
-	1    2800 1800
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 5D5B9AC3
-P 2300 1750
-F 0 "C3" H 2415 1796 50  0000 L CNN
-F 1 "0.1uF" H 2415 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2338 1600 50  0001 C CNN
-F 3 "~" H 2300 1750 50  0001 C CNN
-	1    2300 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 5D5C9315
-P 2800 1450
-F 0 "R3" H 2870 1496 50  0000 L CNN
-F 1 "10K" H 2870 1405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2730 1450 50  0001 C CNN
-F 3 "~" H 2800 1450 50  0001 C CNN
-	1    2800 1450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R2
 U 1 1 5D5AB267
 P 2650 3100
@@ -349,8 +306,6 @@ F 3 "~" H 2650 3100 50  0001 C CNN
 	1    2650 3100
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2300 1900 2300 2000
 Text Label 2850 3100 0    50   ~ 0
 BOOT
 $Comp
@@ -381,12 +336,10 @@ Wire Wire Line
 Connection ~ 6100 1350
 Wire Wire Line
 	6100 1350 6100 1450
-Text GLabel 5300 1150 0    50   Output ~ 0
+Text GLabel 5300 1350 0    50   Output ~ 0
 DIP_SW_1
-Text GLabel 5300 1250 0    50   Output ~ 0
+Text GLabel 5300 1450 0    50   Output ~ 0
 DIP_SW_2
-Wire Wire Line
-	3200 1600 2800 1600
 Connection ~ 3700 3300
 Wire Wire Line
 	3200 3100 2800 3100
@@ -1521,18 +1474,6 @@ F 3 "" H 4250 1100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDPWR #PWR05
-U 1 1 5DDA84FA
-P 2300 2000
-F 0 "#PWR05" H 2300 1800 50  0001 C CNN
-F 1 "GNDPWR" H 2300 1870 50  0000 C CNN
-F 2 "" H 2300 1950 50  0001 C CNN
-F 3 "" H 2300 1950 50  0001 C CNN
-	1    2300 2000
-	1    0    0    -1  
-$EndComp
-Connection ~ 2300 2000
-$Comp
 L power:+3.3V #PWR01
 U 1 1 5DDF21CA
 P 850 3100
@@ -1660,8 +1601,6 @@ Text GLabel 4200 2500 2    50   Input ~ 0
 IC_C2
 Text GLabel 4200 2400 2    50   Input ~ 0
 IC_C3
-NoConn ~ 5300 1350
-NoConn ~ 5300 1450
 $Comp
 L power:GNDPWR #PWR0120
 U 1 1 5DF13DE4
@@ -1933,14 +1872,16 @@ F 3 "" H 1000 7050 50  0001 C CNN
 $EndComp
 NoConn ~ 1150 7000
 $Comp
-L power:GNDPWR #PWR?
+L power:GNDPWR #PWR0115
 U 1 1 5DF51C19
 P 5250 1900
-F 0 "#PWR?" H 5250 1700 50  0001 C CNN
+F 0 "#PWR0115" H 5250 1700 50  0001 C CNN
 F 1 "GNDPWR" H 5250 1770 50  0000 C CNN
 F 2 "" H 5250 1850 50  0001 C CNN
 F 3 "" H 5250 1850 50  0001 C CNN
 	1    5250 1900
 	0    1    1    0   
 $EndComp
+NoConn ~ 5300 1150
+NoConn ~ 5300 1250
 $EndSCHEMATC
