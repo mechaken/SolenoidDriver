@@ -340,11 +340,11 @@ X OUT 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# dk_Transistors-Bipolar-BJT-Arrays_ULN2003D1013TR
+# Solenoid_Valve-rescue_ULN2003D1013TR-dk_Transistors-Bipolar-BJT-Arrays
 #
-DEF dk_Transistors-Bipolar-BJT-Arrays_ULN2003D1013TR Q 0 1 Y Y 1 F N
+DEF Solenoid_Valve-rescue_ULN2003D1013TR-dk_Transistors-Bipolar-BJT-Arrays Q 0 1 Y Y 1 F N
 F0 "Q" -501 544 60 H V L CNN
-F1 "dk_Transistors-Bipolar-BJT-Arrays_ULN2003D1013TR" 7 -550 60 H V L CNN
+F1 "Solenoid_Valve-rescue_ULN2003D1013TR-dk_Transistors-Bipolar-BJT-Arrays" 7 -550 60 H V L CNN
 F2 "digikey-footprints:SOIC-16_W3.90mm" 200 200 60 H I L CNN
 F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf" 200 300 60 H I L CNN
 F4 "497-2345-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
