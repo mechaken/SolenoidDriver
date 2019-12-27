@@ -517,7 +517,7 @@ DIP_SW_1
 Text GLabel 3200 3000 0    50   Input ~ 0
 DIP_SW_2
 $Comp
-L dk_Transistors-Bipolar-BJT-Arrays:ULN2003D1013TR Q1
+L Solenoid_Valve-rescue:ULN2003D1013TR-dk_Transistors-Bipolar-BJT-Arrays Q1
 U 1 1 5DC2DB55
 P 7500 2150
 F 0 "Q1" H 6999 2694 60  0000 L CNN
@@ -611,7 +611,7 @@ F 3 "" H 8100 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L dk_Transistors-Bipolar-BJT-Arrays:ULN2003D1013TR Q2
+L Solenoid_Valve-rescue:ULN2003D1013TR-dk_Transistors-Bipolar-BJT-Arrays Q2
 U 1 1 5DC99CAB
 P 7500 3550
 F 0 "Q2" H 6999 4094 60  0000 L CNN
@@ -681,7 +681,7 @@ F 3 "" H 8100 4550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L dk_Transistors-Bipolar-BJT-Arrays:ULN2003D1013TR Q3
+L Solenoid_Valve-rescue:ULN2003D1013TR-dk_Transistors-Bipolar-BJT-Arrays Q3
 U 1 1 5DCA1834
 P 7500 4950
 F 0 "Q3" H 6999 5494 60  0000 L CNN
