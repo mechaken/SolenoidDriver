@@ -18,10 +18,10 @@ Wire Wire Line
 Wire Wire Line
 	650  4350 650  4100
 $Comp
-L power:+3.3V #PWR0102
+L power:+3.3V #PWR037
 U 1 1 5D618B6C
 P 650 4100
-F 0 "#PWR0102" H 650 3950 50  0001 C CNN
+F 0 "#PWR037" H 650 3950 50  0001 C CNN
 F 1 "+3.3V" H 665 4273 50  0000 C CNN
 F 2 "" H 650 4100 50  0001 C CNN
 F 3 "" H 650 4100 50  0001 C CNN
@@ -29,10 +29,10 @@ F 3 "" H 650 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0103
+L power:GND #PWR045
 U 1 1 5D61C222
 P 1650 4650
-F 0 "#PWR0103" H 1650 4400 50  0001 C CNN
+F 0 "#PWR045" H 1650 4400 50  0001 C CNN
 F 1 "GND" H 1655 4477 50  0000 C CNN
 F 2 "" H 1650 4650 50  0001 C CNN
 F 3 "" H 1650 4650 50  0001 C CNN
@@ -44,10 +44,10 @@ Wire Wire Line
 Wire Wire Line
 	1150 4450 1150 4650
 $Comp
-L power:+5V #PWR0104
+L power:+5V #PWR032
 U 1 1 5D602945
 P 2100 3750
-F 0 "#PWR0104" H 2100 3600 50  0001 C CNN
+F 0 "#PWR032" H 2100 3600 50  0001 C CNN
 F 1 "+5V" H 2115 3923 50  0000 C CNN
 F 2 "" H 2100 3750 50  0001 C CNN
 F 3 "" H 2100 3750 50  0001 C CNN
@@ -63,17 +63,17 @@ L Device:C C6
 U 1 1 5D5F66CE
 P 2250 3850
 F 0 "C6" V 1998 3850 50  0000 C CNN
-F 1 "0.1uF" V 2089 3850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2288 3700 50  0001 C CNN
+F 1 "0.1u" V 2089 3850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2288 3700 50  0001 C CNN
 F 3 "~" H 2250 3850 50  0001 C CNN
 	1    2250 3850
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0105
+L power:GND #PWR034
 U 1 1 5D5F66D4
 P 2400 3850
-F 0 "#PWR0105" H 2400 3600 50  0001 C CNN
+F 0 "#PWR034" H 2400 3600 50  0001 C CNN
 F 1 "GND" V 2405 3722 50  0000 R CNN
 F 2 "" H 2400 3850 50  0001 C CNN
 F 3 "" H 2400 3850 50  0001 C CNN
@@ -82,21 +82,21 @@ F 3 "" H 2400 3850 50  0001 C CNN
 $EndComp
 Connection ~ 2100 3850
 $Comp
-L Device:C C5
+L Device:C C9
 U 1 1 5D5FFC46
 P 850 4500
-F 0 "C5" V 598 4500 50  0000 C CNN
-F 1 "0.1uF" V 689 4500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 888 4350 50  0001 C CNN
+F 0 "C9" V 598 4500 50  0000 C CNN
+F 1 "0.1u" V 689 4500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 888 4350 50  0001 C CNN
 F 3 "~" H 850 4500 50  0001 C CNN
 	1    850  4500
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0106
+L power:GND #PWR044
 U 1 1 5D5FFC4C
 P 850 4650
-F 0 "#PWR0106" H 850 4400 50  0001 C CNN
+F 0 "#PWR044" H 850 4400 50  0001 C CNN
 F 1 "GND" V 855 4522 50  0000 R CNN
 F 2 "" H 850 4650 50  0001 C CNN
 F 3 "" H 850 4650 50  0001 C CNN
@@ -154,10 +154,10 @@ Wire Wire Line
 Wire Wire Line
 	3700 1150 3700 1400
 $Comp
-L power:+5V #PWR0107
+L power:+5V #PWR04
 U 1 1 5DADE6BC
 P 1900 1000
-F 0 "#PWR0107" H 1900 850 50  0001 C CNN
+F 0 "#PWR04" H 1900 850 50  0001 C CNN
 F 1 "+5V" H 1915 1173 50  0000 C CNN
 F 2 "" H 1900 1000 50  0001 C CNN
 F 3 "" H 1900 1000 50  0001 C CNN
@@ -165,10 +165,10 @@ F 3 "" H 1900 1000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0101
+L power:PWR_FLAG #FLG02
 U 1 1 5DADCAA9
 P 1900 850
-F 0 "#FLG0101" H 1900 925 50  0001 C CNN
+F 0 "#FLG02" H 1900 925 50  0001 C CNN
 F 1 "PWR_FLAG" H 1900 1023 50  0000 C CNN
 F 2 "" H 1900 850 50  0001 C CNN
 F 3 "~" H 1900 850 50  0001 C CNN
@@ -176,10 +176,10 @@ F 3 "~" H 1900 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0108
+L power:GND #PWR03
 U 1 1 5DAD982E
 P 1400 1000
-F 0 "#PWR0108" H 1400 750 50  0001 C CNN
+F 0 "#PWR03" H 1400 750 50  0001 C CNN
 F 1 "GND" H 1405 827 50  0000 C CNN
 F 2 "" H 1400 1000 50  0001 C CNN
 F 3 "" H 1400 1000 50  0001 C CNN
@@ -187,60 +187,36 @@ F 3 "" H 1400 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0102
+L power:PWR_FLAG #FLG01
 U 1 1 5DAD906B
 P 1400 850
-F 0 "#FLG0102" H 1400 925 50  0001 C CNN
+F 0 "#FLG01" H 1400 925 50  0001 C CNN
 F 1 "PWR_FLAG" H 1400 1023 50  0000 C CNN
 F 2 "" H 1400 850 50  0001 C CNN
 F 3 "~" H 1400 850 50  0001 C CNN
 	1    1400 850 
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:LED D1
-U 1 1 5DA8FF8E
-P 2350 1150
-F 0 "D1" V 2389 1033 50  0000 R CNN
-F 1 "LED" V 2298 1033 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 2350 1150 50  0001 C CNN
-F 3 "~" H 2350 1150 50  0001 C CNN
-	1    2350 1150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 5DA8FF87
-P 2350 850
-F 0 "R1" H 2420 896 50  0000 L CNN
-F 1 "10K" H 2420 805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 850 50  0001 C CNN
-F 3 "~" H 2350 850 50  0001 C CNN
-	1    2350 850 
-	1    0    0    -1  
-$EndComp
 Text GLabel 5250 2100 0    50   Output ~ 0
 VCP_RX
-Text GLabel 4200 1800 2    50   Input ~ 0
-VCP_TX
 $Comp
-L Device:C C1
+L Device:C C4
 U 1 1 5DA7A5B9
 P 1000 1800
-F 0 "C1" V 748 1800 50  0000 C CNN
-F 1 "1.0uF" V 839 1800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1038 1650 50  0001 C CNN
+F 0 "C4" V 748 1800 50  0000 C CNN
+F 1 "1.0u" V 839 1800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1038 1650 50  0001 C CNN
 F 3 "~" H 1000 1800 50  0001 C CNN
 	1    1000 1800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L Device:C C5
 U 1 1 5DA788D5
 P 1700 1800
-F 0 "C2" V 1448 1800 50  0000 C CNN
-F 1 "4.7uF" V 1539 1800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1738 1650 50  0001 C CNN
+F 0 "C5" V 1448 1800 50  0000 C CNN
+F 1 "2.2u" V 1539 1800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1738 1650 50  0001 C CNN
 F 3 "~" H 1700 1800 50  0001 C CNN
 	1    1700 1800
 	-1   0    0    1   
@@ -252,10 +228,10 @@ NRST
 Text GLabel 4200 3100 2    50   Input ~ 0
 VCP_RX
 $Comp
-L power:GND #PWR0112
+L power:GND #PWR019
 U 1 1 5D63F689
 P 1350 2100
-F 0 "#PWR0112" H 1350 1850 50  0001 C CNN
+F 0 "#PWR019" H 1350 1850 50  0001 C CNN
 F 1 "GND" H 1355 1927 50  0000 C CNN
 F 2 "" H 1350 2100 50  0001 C CNN
 F 3 "" H 1350 2100 50  0001 C CNN
@@ -263,10 +239,10 @@ F 3 "" H 1350 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0113
+L power:+3.3V #PWR014
 U 1 1 5D635307
 P 1850 1650
-F 0 "#PWR0113" H 1850 1500 50  0001 C CNN
+F 0 "#PWR014" H 1850 1500 50  0001 C CNN
 F 1 "+3.3V" H 1865 1823 50  0000 C CNN
 F 2 "" H 1850 1650 50  0001 C CNN
 F 3 "" H 1850 1650 50  0001 C CNN
@@ -274,10 +250,10 @@ F 3 "" H 1850 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR0114
+L power:+5V #PWR013
 U 1 1 5D62D67A
 P 900 1650
-F 0 "#PWR0114" H 900 1500 50  0001 C CNN
+F 0 "#PWR013" H 900 1500 50  0001 C CNN
 F 1 "+5V" H 915 1823 50  0000 C CNN
 F 2 "" H 900 1650 50  0001 C CNN
 F 3 "" H 900 1650 50  0001 C CNN
@@ -285,69 +261,39 @@ F 3 "" H 900 1650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C4
+L Device:C C1
 U 1 1 5D5F70AF
 P 4100 1150
-F 0 "C4" V 3848 1150 50  0000 C CNN
-F 1 "0.1uF" V 3939 1150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4138 1000 50  0001 C CNN
+F 0 "C1" V 3848 1150 50  0000 C CNN
+F 1 "0.1u" V 3939 1150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4138 1000 50  0001 C CNN
 F 3 "~" H 4100 1150 50  0001 C CNN
 	1    4100 1150
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R2
+L Device:R R1
 U 1 1 5D5AB267
 P 2650 3100
-F 0 "R2" V 2443 3100 50  0000 C CNN
+F 0 "R1" V 2443 3100 50  0000 C CNN
 F 1 "10K" V 2534 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2580 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2580 3100 50  0001 C CNN
 F 3 "~" H 2650 3100 50  0001 C CNN
 	1    2650 3100
 	0    1    1    0   
 $EndComp
 Text Label 2850 3100 0    50   ~ 0
 BOOT
-$Comp
-L SamacSys_Parts:IKD0403101 S1
-U 1 1 5DD6F810
-P 5300 1150
-F 0 "S1" H 5469 1415 50  0000 L CNN
-F 1 "IKD0403101" H 5469 1324 50  0000 L CNN
-F 2 "SamacSys_Parts:SOP254P980X370-8N" H 5950 1250 50  0001 L CNN
-F 3 "http://uk.rs-online.com/web/p/products/8772264" H 5950 1150 50  0001 L CNN
-F 4 "4 Way Surface Mount DIP Switch SPST, Raised Actuator Slide Actuator" H 5950 1050 50  0001 L CNN "Description"
-F 5 "3.7" H 5950 950 50  0001 L CNN "Height"
-F 6 "8772264" H 5950 850 50  0001 L CNN "RS Part Number"
-F 7 "http://uk.rs-online.com/web/p/products/8772264" H 5950 750 50  0001 L CNN "RS Price/Stock"
-F 8 "Apem" H 5950 650 50  0001 L CNN "Manufacturer_Name"
-F 9 "IKD0403101" H 5950 550 50  0001 L CNN "Manufacturer_Part_Number"
-	1    5300 1150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6100 1000 6100 1150
-Connection ~ 6100 1150
-Wire Wire Line
-	6100 1150 6100 1250
-Connection ~ 6100 1250
-Wire Wire Line
-	6100 1250 6100 1350
-Connection ~ 6100 1350
-Wire Wire Line
-	6100 1350 6100 1450
-Text GLabel 5300 1350 0    50   Output ~ 0
-DIP_SW_1
-Text GLabel 5300 1450 0    50   Output ~ 0
+Text GLabel 5900 1450 2    50   Output ~ 0
 DIP_SW_2
 Connection ~ 3700 3300
 Wire Wire Line
 	3200 3100 2800 3100
 $Comp
-L MCU_ST_STM32F0:STM32F042K6Tx U2
+L MCU_ST_STM32F0:STM32F042K6Tx U3
 U 1 1 5DA7A10A
 P 3700 2300
-F 0 "U2" H 3700 1211 50  0000 C CNN
+F 0 "U3" H 3700 1211 50  0000 C CNN
 F 1 "STM32F042K6Tx" H 3700 1120 50  0000 C CNN
 F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 3300 1400 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf" H 3700 2300 50  0001 C CNN
@@ -366,10 +312,10 @@ Wire Wire Line
 	4200 2900 5300 2900
 Connection ~ 1650 4650
 $Comp
-L Interface_CAN_LIN:MCP2562-E-SN U3
+L Interface_CAN_LIN:MCP2562-E-SN U5
 U 1 1 5DB5AF60
 P 1650 4250
-F 0 "U3" H 1250 4600 50  0000 L CNN
+F 0 "U5" H 1250 4600 50  0000 L CNN
 F 1 "MCP2562-E-SN" H 1750 4600 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1650 3750 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf" H 1650 4250 50  0001 C CNN
@@ -377,10 +323,10 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf" H 1650 4250 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR0121
+L power:GNDPWR #PWR022
 U 1 1 5DC2F69D
 P 7500 2750
-F 0 "#PWR0121" H 7500 2550 50  0001 C CNN
+F 0 "#PWR022" H 7500 2550 50  0001 C CNN
 F 1 "GNDPWR" H 7500 2620 50  0000 C CNN
 F 2 "" H 7500 2700 50  0001 C CNN
 F 3 "" H 7500 2700 50  0001 C CNN
@@ -392,10 +338,10 @@ Wire Wire Line
 Wire Wire Line
 	7900 1100 7900 950 
 $Comp
-L power:PWR_FLAG #FLG0103
+L power:PWR_FLAG #FLG04
 U 1 1 5DC30D2A
 P 8400 950
-F 0 "#FLG0103" H 8400 1025 50  0001 C CNN
+F 0 "#FLG04" H 8400 1025 50  0001 C CNN
 F 1 "PWR_FLAG" H 8400 1123 50  0000 C CNN
 F 2 "" H 8400 950 50  0001 C CNN
 F 3 "~" H 8400 950 50  0001 C CNN
@@ -403,10 +349,10 @@ F 3 "~" H 8400 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0104
+L power:PWR_FLAG #FLG03
 U 1 1 5DC30D36
 P 7900 950
-F 0 "#FLG0104" H 7900 1025 50  0001 C CNN
+F 0 "#FLG03" H 7900 1025 50  0001 C CNN
 F 1 "PWR_FLAG" H 7900 1123 50  0000 C CNN
 F 2 "" H 7900 950 50  0001 C CNN
 F 3 "~" H 7900 950 50  0001 C CNN
@@ -414,10 +360,10 @@ F 3 "~" H 7900 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR0122
+L power:GNDPWR #PWR07
 U 1 1 5DC33C1B
 P 7900 1100
-F 0 "#PWR0122" H 7900 900 50  0001 C CNN
+F 0 "#PWR07" H 7900 900 50  0001 C CNN
 F 1 "GNDPWR" H 7900 970 50  0000 C CNN
 F 2 "" H 7900 1050 50  0001 C CNN
 F 3 "" H 7900 1050 50  0001 C CNN
@@ -425,10 +371,10 @@ F 3 "" H 7900 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR0123
+L power:VCC #PWR08
 U 1 1 5DC345FF
 P 8400 1100
-F 0 "#PWR0123" H 8400 950 50  0001 C CNN
+F 0 "#PWR08" H 8400 950 50  0001 C CNN
 F 1 "VCC" H 8400 1250 50  0000 C CNN
 F 2 "" H 8400 1100 50  0001 C CNN
 F 3 "" H 8400 1100 50  0001 C CNN
@@ -436,21 +382,21 @@ F 3 "" H 8400 1100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Solenoid_Valve-rescue:L7812-Regulator_Linear U4
+L Solenoid_Valve-rescue:L7812-Regulator_Linear U1
 U 1 1 5DC34949
 P 6950 1000
-F 0 "U4" H 6800 1125 50  0000 C CNN
-F 1 "L7812" H 6950 1125 50  0000 L CNN
+F 0 "U1" H 6800 1125 50  0000 C CNN
+F 1 "NJM7812" H 6950 1125 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 6975 850 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 6950 950 50  0001 C CNN
 	1    6950 1000
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR0124
+L power:VCC #PWR05
 U 1 1 5DC3558D
 P 6650 1000
-F 0 "#PWR0124" H 6650 850 50  0001 C CNN
+F 0 "#PWR05" H 6650 850 50  0001 C CNN
 F 1 "VCC" H 6650 1150 50  0000 C CNN
 F 2 "" H 6650 1000 50  0001 C CNN
 F 3 "" H 6650 1000 50  0001 C CNN
@@ -458,10 +404,10 @@ F 3 "" H 6650 1000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+12V #PWR0125
+L power:+12V #PWR06
 U 1 1 5DC360B0
 P 7250 1000
-F 0 "#PWR0125" H 7250 850 50  0001 C CNN
+F 0 "#PWR06" H 7250 850 50  0001 C CNN
 F 1 "+12V" H 7250 1140 50  0000 C CNN
 F 2 "" H 7250 1000 50  0001 C CNN
 F 3 "" H 7250 1000 50  0001 C CNN
@@ -469,10 +415,10 @@ F 3 "" H 7250 1000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GNDPWR #PWR0126
+L power:GNDPWR #PWR010
 U 1 1 5DC36732
 P 6950 1300
-F 0 "#PWR0126" H 6950 1100 50  0001 C CNN
+F 0 "#PWR010" H 6950 1100 50  0001 C CNN
 F 1 "GNDPWR" H 6950 1170 50  0000 C CNN
 F 2 "" H 6950 1250 50  0001 C CNN
 F 3 "" H 6950 1250 50  0001 C CNN
@@ -480,10 +426,10 @@ F 3 "" H 6950 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR0127
+L power:+12V #PWR015
 U 1 1 5DC383C2
 P 8100 1750
-F 0 "#PWR0127" H 8100 1600 50  0001 C CNN
+F 0 "#PWR015" H 8100 1600 50  0001 C CNN
 F 1 "+12V" H 8100 1890 50  0000 C CNN
 F 2 "" H 8100 1750 50  0001 C CNN
 F 3 "" H 8100 1750 50  0001 C CNN
@@ -502,10 +448,10 @@ F 3 "~" H 9650 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR0128
+L power:+12V #PWR011
 U 1 1 5DC4D204
 P 9350 1350
-F 0 "#PWR0128" H 9350 1200 50  0001 C CNN
+F 0 "#PWR011" H 9350 1200 50  0001 C CNN
 F 1 "+12V" H 9350 1490 50  0000 C CNN
 F 2 "" H 9350 1350 50  0001 C CNN
 F 3 "" H 9350 1350 50  0001 C CNN
@@ -513,9 +459,9 @@ F 3 "" H 9350 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 3200 2900 0    50   Input ~ 0
-DIP_SW_1
-Text GLabel 3200 3000 0    50   Input ~ 0
 DIP_SW_2
+Text GLabel 3200 3000 0    50   Input ~ 0
+IC_A1
 $Comp
 L Solenoid_Valve-rescue:ULN2003D1013TR-dk_Transistors-Bipolar-BJT-Arrays Q1
 U 1 1 5DC2DB55
@@ -536,20 +482,10 @@ F 12 "Active" H 7700 3350 60  0001 L CNN "Status"
 	1    7500 2150
 	1    0    0    -1  
 $EndComp
-Text GLabel 8100 1850 2    50   UnSpc ~ 0
-Solenoid_A1
 Text GLabel 8100 1950 2    50   UnSpc ~ 0
-Solenoid_A2
-Text GLabel 8100 2050 2    50   UnSpc ~ 0
-Solenoid_A3
-Text GLabel 8100 2150 2    50   UnSpc ~ 0
-Solenoid_A4
-Text GLabel 8100 2250 2    50   UnSpc ~ 0
-Solenoid_A5
-Text GLabel 8100 2350 2    50   UnSpc ~ 0
 Solenoid_A6
-Text GLabel 8100 2450 2    50   UnSpc ~ 0
-Solenoid_A7
+Text GLabel 8100 4750 2    50   UnSpc ~ 0
+Solenoid_C4
 Wire Wire Line
 	9450 1350 9450 1450
 Connection ~ 9350 1350
@@ -562,37 +498,35 @@ Wire Wire Line
 Wire Wire Line
 	9250 1650 9450 1650
 $Comp
-L Device:D D7
+L Device:D D3
 U 1 1 5DC6D1AC
 P 9250 1500
-F 0 "D7" H 9250 1600 50  0000 C CNN
+F 0 "D3" H 9250 1600 50  0000 C CNN
 F 1 "D" H 9250 1400 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric" H 9250 1500 50  0001 C CNN
+F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 9250 1500 50  0001 C CNN
 F 3 "~" H 9250 1500 50  0001 C CNN
 	1    9250 1500
 	0    1    1    0   
 $EndComp
 Text GLabel 9250 1650 0    50   UnSpc ~ 0
-Solenoid_A2
-Text GLabel 6900 1850 0    50   Input ~ 0
+Solenoid_B2
+Text GLabel 6900 2450 0    50   Input ~ 0
 IC_A1
-Text GLabel 6900 1950 0    50   Input ~ 0
+Text GLabel 6900 2350 0    50   Input ~ 0
 IC_A2
-Text GLabel 6900 2050 0    50   Input ~ 0
+Text GLabel 6900 2250 0    50   Input ~ 0
 IC_A3
 Text GLabel 6900 2150 0    50   Input ~ 0
 IC_A4
-Text GLabel 6900 2250 0    50   Input ~ 0
+Text GLabel 6900 2050 0    50   Input ~ 0
 IC_A5
-Text GLabel 6900 2350 0    50   Input ~ 0
+Text GLabel 6900 1950 0    50   Input ~ 0
 IC_A6
-Text GLabel 6900 2450 0    50   Input ~ 0
-IC_A7
 $Comp
-L power:GNDPWR #PWR020
+L power:GNDPWR #PWR038
 U 1 1 5DC99C96
 P 7500 4150
-F 0 "#PWR020" H 7500 3950 50  0001 C CNN
+F 0 "#PWR038" H 7500 3950 50  0001 C CNN
 F 1 "GNDPWR" H 7500 4020 50  0000 C CNN
 F 2 "" H 7500 4100 50  0001 C CNN
 F 3 "" H 7500 4100 50  0001 C CNN
@@ -600,69 +534,47 @@ F 3 "" H 7500 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR022
+L power:+12V #PWR025
 U 1 1 5DC99C9C
 P 8100 3150
-F 0 "#PWR022" H 8100 3000 50  0001 C CNN
+F 0 "#PWR025" H 8100 3000 50  0001 C CNN
 F 1 "+12V" H 8100 3290 50  0000 C CNN
 F 2 "" H 8100 3150 50  0001 C CNN
 F 3 "" H 8100 3150 50  0001 C CNN
 	1    8100 3150
 	0    1    1    0   
 $EndComp
-$Comp
-L Solenoid_Valve-rescue:ULN2003D1013TR-dk_Transistors-Bipolar-BJT-Arrays Q2
-U 1 1 5DC99CAB
-P 7500 3550
-F 0 "Q2" H 6999 4094 60  0000 L CNN
-F 1 "ULN2004D1013TR" H 7507 3000 60  0000 L CNN
-F 2 "digikey-footprints:SOIC-16_W3.90mm" H 7700 3750 60  0001 L CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf" H 7700 3850 60  0001 L CNN
-F 4 "497-2345-1-ND" H 7700 3950 60  0001 L CNN "Digi-Key_PN"
-F 5 "ULN2003D1013TR" H 7700 4050 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 7700 4150 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Arrays" H 7700 4250 60  0001 L CNN "Family"
-F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf" H 7700 4350 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/stmicroelectronics/ULN2003D1013TR/497-2345-1-ND/599201" H 7700 4450 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC PWR RELAY 7NPN 1:1 16SO" H 7700 4550 60  0001 L CNN "Description"
-F 11 "STMicroelectronics" H 7700 4650 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7700 4750 60  0001 L CNN "Status"
-	1    7500 3550
-	1    0    0    -1  
-$EndComp
-Text GLabel 8100 3250 2    50   UnSpc ~ 0
+Text GLabel 8100 3850 2    50   UnSpc ~ 0
 Solenoid_B1
-Text GLabel 8100 3350 2    50   UnSpc ~ 0
+Text GLabel 8100 3750 2    50   UnSpc ~ 0
 Solenoid_B2
-Text GLabel 8100 3450 2    50   UnSpc ~ 0
+Text GLabel 8100 3650 2    50   UnSpc ~ 0
 Solenoid_B3
 Text GLabel 8100 3550 2    50   UnSpc ~ 0
 Solenoid_B4
-Text GLabel 8100 3650 2    50   UnSpc ~ 0
+Text GLabel 8100 3450 2    50   UnSpc ~ 0
 Solenoid_B5
-Text GLabel 8100 3750 2    50   UnSpc ~ 0
+Text GLabel 8100 3350 2    50   UnSpc ~ 0
 Solenoid_B6
-Text GLabel 8100 3850 2    50   UnSpc ~ 0
-Solenoid_B7
-Text GLabel 6900 3250 0    50   Input ~ 0
+Text GLabel 8100 4650 2    50   UnSpc ~ 0
+Solenoid_C5
+Text GLabel 6900 3850 0    50   Input ~ 0
 IC_B1
-Text GLabel 6900 3350 0    50   Input ~ 0
+Text GLabel 6900 3750 0    50   Input ~ 0
 IC_B2
-Text GLabel 6900 3450 0    50   Input ~ 0
+Text GLabel 6900 3650 0    50   Input ~ 0
 IC_B3
 Text GLabel 6900 3550 0    50   Input ~ 0
 IC_B4
-Text GLabel 6900 3650 0    50   Input ~ 0
+Text GLabel 6900 3450 0    50   Input ~ 0
 IC_B5
-Text GLabel 6900 3750 0    50   Input ~ 0
+Text GLabel 6900 3350 0    50   Input ~ 0
 IC_B6
-Text GLabel 6900 3850 0    50   Input ~ 0
-IC_B7
 $Comp
-L power:GNDPWR #PWR021
+L power:GNDPWR #PWR048
 U 1 1 5DCA181F
 P 7500 5550
-F 0 "#PWR021" H 7500 5350 50  0001 C CNN
+F 0 "#PWR048" H 7500 5350 50  0001 C CNN
 F 1 "GNDPWR" H 7500 5420 50  0000 C CNN
 F 2 "" H 7500 5500 50  0001 C CNN
 F 3 "" H 7500 5500 50  0001 C CNN
@@ -670,53 +582,27 @@ F 3 "" H 7500 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR023
+L power:+12V #PWR040
 U 1 1 5DCA1825
 P 8100 4550
-F 0 "#PWR023" H 8100 4400 50  0001 C CNN
+F 0 "#PWR040" H 8100 4400 50  0001 C CNN
 F 1 "+12V" H 8100 4690 50  0000 C CNN
 F 2 "" H 8100 4550 50  0001 C CNN
 F 3 "" H 8100 4550 50  0001 C CNN
 	1    8100 4550
 	0    1    1    0   
 $EndComp
-$Comp
-L Solenoid_Valve-rescue:ULN2003D1013TR-dk_Transistors-Bipolar-BJT-Arrays Q3
-U 1 1 5DCA1834
-P 7500 4950
-F 0 "Q3" H 6999 5494 60  0000 L CNN
-F 1 "ULN2004D1013TR" H 7507 4400 60  0000 L CNN
-F 2 "digikey-footprints:SOIC-16_W3.90mm" H 7700 5150 60  0001 L CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf" H 7700 5250 60  0001 L CNN
-F 4 "497-2345-1-ND" H 7700 5350 60  0001 L CNN "Digi-Key_PN"
-F 5 "ULN2003D1013TR" H 7700 5450 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 7700 5550 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Arrays" H 7700 5650 60  0001 L CNN "Family"
-F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf" H 7700 5750 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/stmicroelectronics/ULN2003D1013TR/497-2345-1-ND/599201" H 7700 5850 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC PWR RELAY 7NPN 1:1 16SO" H 7700 5950 60  0001 L CNN "Description"
-F 11 "STMicroelectronics" H 7700 6050 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7700 6150 60  0001 L CNN "Status"
-	1    7500 4950
-	1    0    0    -1  
-$EndComp
-Text GLabel 8100 4650 2    50   UnSpc ~ 0
+Text GLabel 8100 5050 2    50   UnSpc ~ 0
 Solenoid_C1
-Text GLabel 8100 4750 2    50   UnSpc ~ 0
+Text GLabel 8100 4950 2    50   UnSpc ~ 0
 Solenoid_C2
 Text GLabel 8100 4850 2    50   UnSpc ~ 0
 Solenoid_C3
-Text GLabel 6900 4650 0    50   Input ~ 0
-IC_C1
-Text GLabel 6900 4750 0    50   Input ~ 0
-IC_C2
-Text GLabel 6900 4850 0    50   Input ~ 0
-IC_C3
 $Comp
-L Connector_Generic:Conn_01x02 J9
+L Connector_Generic:Conn_01x02 J6
 U 1 1 5DCA2D64
 P 9650 2050
-F 0 "J9" H 9650 2150 50  0000 C CNN
+F 0 "J6" H 9650 2150 50  0000 C CNN
 F 1 "Conn_01x02" H 9650 1850 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 9650 2050 50  0001 C CNN
 F 3 "~" H 9650 2050 50  0001 C CNN
@@ -724,10 +610,10 @@ F 3 "~" H 9650 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR025
+L power:+12V #PWR017
 U 1 1 5DCA2D6A
 P 9350 1950
-F 0 "#PWR025" H 9350 1800 50  0001 C CNN
+F 0 "#PWR017" H 9350 1800 50  0001 C CNN
 F 1 "+12V" H 9350 2090 50  0000 C CNN
 F 2 "" H 9350 1950 50  0001 C CNN
 F 3 "" H 9350 1950 50  0001 C CNN
@@ -746,69 +632,21 @@ Wire Wire Line
 Wire Wire Line
 	9250 2250 9450 2250
 $Comp
-L Device:D D8
+L Device:D D5
 U 1 1 5DCA2D76
 P 9250 2100
-F 0 "D8" H 9250 2200 50  0000 C CNN
+F 0 "D5" H 9250 2200 50  0000 C CNN
 F 1 "D" H 9250 2000 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric" H 9250 2100 50  0001 C CNN
+F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 9250 2100 50  0001 C CNN
 F 3 "~" H 9250 2100 50  0001 C CNN
 	1    9250 2100
 	0    1    1    0   
 $EndComp
-Text GLabel 9250 2250 0    50   UnSpc ~ 0
-Solenoid_A3
 $Comp
-L Connector_Generic:Conn_01x02 J10
-U 1 1 5DCA4538
-P 9650 2650
-F 0 "J10" H 9650 2750 50  0000 C CNN
-F 1 "Conn_01x02" H 9650 2450 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 9650 2650 50  0001 C CNN
-F 3 "~" H 9650 2650 50  0001 C CNN
-	1    9650 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR026
-U 1 1 5DCA453E
-P 9350 2550
-F 0 "#PWR026" H 9350 2400 50  0001 C CNN
-F 1 "+12V" H 9350 2690 50  0000 C CNN
-F 2 "" H 9350 2550 50  0001 C CNN
-F 3 "" H 9350 2550 50  0001 C CNN
-	1    9350 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9450 2550 9450 2650
-Connection ~ 9350 2550
-Wire Wire Line
-	9350 2550 9450 2550
-Wire Wire Line
-	9450 2850 9450 2750
-Wire Wire Line
-	9250 2550 9350 2550
-Wire Wire Line
-	9250 2850 9450 2850
-$Comp
-L Device:D D9
-U 1 1 5DCA454A
-P 9250 2700
-F 0 "D9" H 9250 2800 50  0000 C CNN
-F 1 "D" H 9250 2600 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric" H 9250 2700 50  0001 C CNN
-F 3 "~" H 9250 2700 50  0001 C CNN
-	1    9250 2700
-	0    1    1    0   
-$EndComp
-Text GLabel 9250 2850 0    50   UnSpc ~ 0
-Solenoid_A4
-$Comp
-L Connector_Generic:Conn_01x02 J8
+L Connector_Generic:Conn_01x02 J1
 U 1 1 5DCA5833
 P 9650 850
-F 0 "J8" H 9650 950 50  0000 C CNN
+F 0 "J1" H 9650 950 50  0000 C CNN
 F 1 "Conn_01x02" H 9650 650 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 9650 850 50  0001 C CNN
 F 3 "~" H 9650 850 50  0001 C CNN
@@ -816,10 +654,10 @@ F 3 "~" H 9650 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR024
+L power:+12V #PWR01
 U 1 1 5DCA5839
 P 9350 750
-F 0 "#PWR024" H 9350 600 50  0001 C CNN
+F 0 "#PWR01" H 9350 600 50  0001 C CNN
 F 1 "+12V" H 9350 890 50  0000 C CNN
 F 2 "" H 9350 750 50  0001 C CNN
 F 3 "" H 9350 750 50  0001 C CNN
@@ -838,592 +676,22 @@ Wire Wire Line
 Wire Wire Line
 	9250 1050 9450 1050
 $Comp
-L Device:D D6
+L Device:D D1
 U 1 1 5DCA5845
 P 9250 900
-F 0 "D6" H 9250 1000 50  0000 C CNN
+F 0 "D1" H 9250 1000 50  0000 C CNN
 F 1 "D" H 9250 800 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric" H 9250 900 50  0001 C CNN
+F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 9250 900 50  0001 C CNN
 F 3 "~" H 9250 900 50  0001 C CNN
 	1    9250 900 
 	0    1    1    0   
 $EndComp
 Text GLabel 9250 1050 0    50   UnSpc ~ 0
-Solenoid_A1
-$Comp
-L Connector_Generic:Conn_01x02 J15
-U 1 1 5DCA718D
-P 10850 850
-F 0 "J15" H 10850 950 50  0000 C CNN
-F 1 "Conn_01x02" H 10850 650 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 10850 850 50  0001 C CNN
-F 3 "~" H 10850 850 50  0001 C CNN
-	1    10850 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR031
-U 1 1 5DCA7193
-P 10550 750
-F 0 "#PWR031" H 10550 600 50  0001 C CNN
-F 1 "+12V" H 10550 890 50  0000 C CNN
-F 2 "" H 10550 750 50  0001 C CNN
-F 3 "" H 10550 750 50  0001 C CNN
-	1    10550 750 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 750  10650 850 
-Connection ~ 10550 750 
-Wire Wire Line
-	10550 750  10650 750 
-Wire Wire Line
-	10650 1050 10650 950 
-Wire Wire Line
-	10450 750  10550 750 
-Wire Wire Line
-	10450 1050 10650 1050
-$Comp
-L Device:D D14
-U 1 1 5DCA719F
-P 10450 900
-F 0 "D14" H 10450 1000 50  0000 C CNN
-F 1 "D" H 10450 800 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric" H 10450 900 50  0001 C CNN
-F 3 "~" H 10450 900 50  0001 C CNN
-	1    10450 900 
-	0    1    1    0   
-$EndComp
-Text GLabel 10450 1050 0    50   UnSpc ~ 0
-Solenoid_A5
-$Comp
-L Connector_Generic:Conn_01x02 J16
-U 1 1 5DCA8A66
-P 10850 1450
-F 0 "J16" H 10850 1550 50  0000 C CNN
-F 1 "Conn_01x02" H 10850 1250 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 10850 1450 50  0001 C CNN
-F 3 "~" H 10850 1450 50  0001 C CNN
-	1    10850 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR032
-U 1 1 5DCA8A6C
-P 10550 1350
-F 0 "#PWR032" H 10550 1200 50  0001 C CNN
-F 1 "+12V" H 10550 1490 50  0000 C CNN
-F 2 "" H 10550 1350 50  0001 C CNN
-F 3 "" H 10550 1350 50  0001 C CNN
-	1    10550 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 1350 10650 1450
-Connection ~ 10550 1350
-Wire Wire Line
-	10550 1350 10650 1350
-Wire Wire Line
-	10650 1650 10650 1550
-Wire Wire Line
-	10450 1350 10550 1350
-Wire Wire Line
-	10450 1650 10650 1650
-$Comp
-L Device:D D15
-U 1 1 5DCA8A78
-P 10450 1500
-F 0 "D15" H 10450 1600 50  0000 C CNN
-F 1 "D" H 10450 1400 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric" H 10450 1500 50  0001 C CNN
-F 3 "~" H 10450 1500 50  0001 C CNN
-	1    10450 1500
-	0    1    1    0   
-$EndComp
-Text GLabel 10450 1650 0    50   UnSpc ~ 0
-Solenoid_A6
-$Comp
-L Connector_Generic:Conn_01x02 J17
-U 1 1 5DCAA57F
-P 10850 2050
-F 0 "J17" H 10850 2150 50  0000 C CNN
-F 1 "Conn_01x02" H 10850 1850 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 10850 2050 50  0001 C CNN
-F 3 "~" H 10850 2050 50  0001 C CNN
-	1    10850 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR033
-U 1 1 5DCAA585
-P 10550 1950
-F 0 "#PWR033" H 10550 1800 50  0001 C CNN
-F 1 "+12V" H 10550 2090 50  0000 C CNN
-F 2 "" H 10550 1950 50  0001 C CNN
-F 3 "" H 10550 1950 50  0001 C CNN
-	1    10550 1950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 1950 10650 2050
-Connection ~ 10550 1950
-Wire Wire Line
-	10550 1950 10650 1950
-Wire Wire Line
-	10650 2250 10650 2150
-Wire Wire Line
-	10450 1950 10550 1950
-Wire Wire Line
-	10450 2250 10650 2250
-$Comp
-L Device:D D16
-U 1 1 5DCAA591
-P 10450 2100
-F 0 "D16" H 10450 2200 50  0000 C CNN
-F 1 "D" H 10450 2000 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric" H 10450 2100 50  0001 C CNN
-F 3 "~" H 10450 2100 50  0001 C CNN
-	1    10450 2100
-	0    1    1    0   
-$EndComp
-Text GLabel 10450 2250 0    50   UnSpc ~ 0
-Solenoid_A7
-$Comp
-L Connector_Generic:Conn_01x02 J12
-U 1 1 5DCC0C56
-P 9650 4600
-F 0 "J12" H 9650 4700 50  0000 C CNN
-F 1 "Conn_01x02" H 9650 4400 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 9650 4600 50  0001 C CNN
-F 3 "~" H 9650 4600 50  0001 C CNN
-	1    9650 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR028
-U 1 1 5DCC0C5C
-P 9350 4500
-F 0 "#PWR028" H 9350 4350 50  0001 C CNN
-F 1 "+12V" H 9350 4640 50  0000 C CNN
-F 2 "" H 9350 4500 50  0001 C CNN
-F 3 "" H 9350 4500 50  0001 C CNN
-	1    9350 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9450 4500 9450 4600
-Connection ~ 9350 4500
-Wire Wire Line
-	9350 4500 9450 4500
-Wire Wire Line
-	9450 4800 9450 4700
-Wire Wire Line
-	9250 4500 9350 4500
-Wire Wire Line
-	9250 4800 9450 4800
-$Comp
-L Device:D D11
-U 1 1 5DCC0C68
-P 9250 4650
-F 0 "D11" H 9250 4750 50  0000 C CNN
-F 1 "D" H 9250 4550 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric" H 9250 4650 50  0001 C CNN
-F 3 "~" H 9250 4650 50  0001 C CNN
-	1    9250 4650
-	0    1    1    0   
-$EndComp
-Text GLabel 9250 4800 0    50   UnSpc ~ 0
-Solenoid_B2
-$Comp
-L Connector_Generic:Conn_01x02 J13
-U 1 1 5DCC0C6F
-P 9650 5200
-F 0 "J13" H 9650 5300 50  0000 C CNN
-F 1 "Conn_01x02" H 9650 5000 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 9650 5200 50  0001 C CNN
-F 3 "~" H 9650 5200 50  0001 C CNN
-	1    9650 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR029
-U 1 1 5DCC0C75
-P 9350 5100
-F 0 "#PWR029" H 9350 4950 50  0001 C CNN
-F 1 "+12V" H 9350 5240 50  0000 C CNN
-F 2 "" H 9350 5100 50  0001 C CNN
-F 3 "" H 9350 5100 50  0001 C CNN
-	1    9350 5100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9450 5100 9450 5200
-Connection ~ 9350 5100
-Wire Wire Line
-	9350 5100 9450 5100
-Wire Wire Line
-	9450 5400 9450 5300
-Wire Wire Line
-	9250 5100 9350 5100
-Wire Wire Line
-	9250 5400 9450 5400
-$Comp
-L Device:D D12
-U 1 1 5DCC0C81
-P 9250 5250
-F 0 "D12" H 9250 5350 50  0000 C CNN
-F 1 "D" H 9250 5150 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric" H 9250 5250 50  0001 C CNN
-F 3 "~" H 9250 5250 50  0001 C CNN
-	1    9250 5250
-	0    1    1    0   
-$EndComp
-Text GLabel 9250 5400 0    50   UnSpc ~ 0
-Solenoid_B3
-$Comp
-L Connector_Generic:Conn_01x02 J14
-U 1 1 5DCC0C88
-P 9650 5800
-F 0 "J14" H 9650 5900 50  0000 C CNN
-F 1 "Conn_01x02" H 9650 5600 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 9650 5800 50  0001 C CNN
-F 3 "~" H 9650 5800 50  0001 C CNN
-	1    9650 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR030
-U 1 1 5DCC0C8E
-P 9350 5700
-F 0 "#PWR030" H 9350 5550 50  0001 C CNN
-F 1 "+12V" H 9350 5840 50  0000 C CNN
-F 2 "" H 9350 5700 50  0001 C CNN
-F 3 "" H 9350 5700 50  0001 C CNN
-	1    9350 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9450 5700 9450 5800
-Connection ~ 9350 5700
-Wire Wire Line
-	9350 5700 9450 5700
-Wire Wire Line
-	9450 6000 9450 5900
-Wire Wire Line
-	9250 5700 9350 5700
-Wire Wire Line
-	9250 6000 9450 6000
-$Comp
-L Device:D D13
-U 1 1 5DCC0C9A
-P 9250 5850
-F 0 "D13" H 9250 5950 50  0000 C CNN
-F 1 "D" H 9250 5750 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric" H 9250 5850 50  0001 C CNN
-F 3 "~" H 9250 5850 50  0001 C CNN
-	1    9250 5850
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J11
-U 1 1 5DCC0CA1
-P 9650 4000
-F 0 "J11" H 9650 4100 50  0000 C CNN
-F 1 "Conn_01x02" H 9650 3800 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 9650 4000 50  0001 C CNN
-F 3 "~" H 9650 4000 50  0001 C CNN
-	1    9650 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR027
-U 1 1 5DCC0CA7
-P 9350 3900
-F 0 "#PWR027" H 9350 3750 50  0001 C CNN
-F 1 "+12V" H 9350 4040 50  0000 C CNN
-F 2 "" H 9350 3900 50  0001 C CNN
-F 3 "" H 9350 3900 50  0001 C CNN
-	1    9350 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9450 3900 9450 4000
-Connection ~ 9350 3900
-Wire Wire Line
-	9350 3900 9450 3900
-Wire Wire Line
-	9450 4200 9450 4100
-Wire Wire Line
-	9250 3900 9350 3900
-Wire Wire Line
-	9250 4200 9450 4200
-$Comp
-L Device:D D10
-U 1 1 5DCC0CB3
-P 9250 4050
-F 0 "D10" H 9250 4150 50  0000 C CNN
-F 1 "D" H 9250 3950 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric" H 9250 4050 50  0001 C CNN
-F 3 "~" H 9250 4050 50  0001 C CNN
-	1    9250 4050
-	0    1    1    0   
-$EndComp
-Text GLabel 9250 4200 0    50   UnSpc ~ 0
 Solenoid_B1
-$Comp
-L Connector_Generic:Conn_01x02 J18
-U 1 1 5DCC0CBA
-P 10850 4000
-F 0 "J18" H 10850 4100 50  0000 C CNN
-F 1 "Conn_01x02" H 10850 3800 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 10850 4000 50  0001 C CNN
-F 3 "~" H 10850 4000 50  0001 C CNN
-	1    10850 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR034
-U 1 1 5DCC0CC0
-P 10550 3900
-F 0 "#PWR034" H 10550 3750 50  0001 C CNN
-F 1 "+12V" H 10550 4040 50  0000 C CNN
-F 2 "" H 10550 3900 50  0001 C CNN
-F 3 "" H 10550 3900 50  0001 C CNN
-	1    10550 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 3900 10650 4000
-Connection ~ 10550 3900
-Wire Wire Line
-	10550 3900 10650 3900
-Wire Wire Line
-	10650 4200 10650 4100
-Wire Wire Line
-	10450 3900 10550 3900
-Wire Wire Line
-	10450 4200 10650 4200
-$Comp
-L Device:D D17
-U 1 1 5DCC0CCC
-P 10450 4050
-F 0 "D17" H 10450 4150 50  0000 C CNN
-F 1 "D" H 10450 3950 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric" H 10450 4050 50  0001 C CNN
-F 3 "~" H 10450 4050 50  0001 C CNN
-	1    10450 4050
-	0    1    1    0   
-$EndComp
-Text GLabel 10450 4200 0    50   UnSpc ~ 0
-Solenoid_B5
-$Comp
-L Connector_Generic:Conn_01x02 J19
-U 1 1 5DCC0CD3
-P 10850 4600
-F 0 "J19" H 10850 4700 50  0000 C CNN
-F 1 "Conn_01x02" H 10850 4400 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 10850 4600 50  0001 C CNN
-F 3 "~" H 10850 4600 50  0001 C CNN
-	1    10850 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR035
-U 1 1 5DCC0CD9
-P 10550 4500
-F 0 "#PWR035" H 10550 4350 50  0001 C CNN
-F 1 "+12V" H 10550 4640 50  0000 C CNN
-F 2 "" H 10550 4500 50  0001 C CNN
-F 3 "" H 10550 4500 50  0001 C CNN
-	1    10550 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 4500 10650 4600
-Connection ~ 10550 4500
-Wire Wire Line
-	10550 4500 10650 4500
-Wire Wire Line
-	10650 4800 10650 4700
-Wire Wire Line
-	10450 4500 10550 4500
-Wire Wire Line
-	10450 4800 10650 4800
-$Comp
-L Device:D D18
-U 1 1 5DCC0CE5
-P 10450 4650
-F 0 "D18" H 10450 4750 50  0000 C CNN
-F 1 "D" H 10450 4550 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric" H 10450 4650 50  0001 C CNN
-F 3 "~" H 10450 4650 50  0001 C CNN
-	1    10450 4650
-	0    1    1    0   
-$EndComp
-Text GLabel 10450 4800 0    50   UnSpc ~ 0
-Solenoid_B6
-$Comp
-L Connector_Generic:Conn_01x02 J20
-U 1 1 5DCC0CEC
-P 10850 5200
-F 0 "J20" H 10850 5300 50  0000 C CNN
-F 1 "Conn_01x02" H 10850 5000 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 10850 5200 50  0001 C CNN
-F 3 "~" H 10850 5200 50  0001 C CNN
-	1    10850 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR036
-U 1 1 5DCC0CF2
-P 10550 5100
-F 0 "#PWR036" H 10550 4950 50  0001 C CNN
-F 1 "+12V" H 10550 5240 50  0000 C CNN
-F 2 "" H 10550 5100 50  0001 C CNN
-F 3 "" H 10550 5100 50  0001 C CNN
-	1    10550 5100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 5100 10650 5200
-Connection ~ 10550 5100
-Wire Wire Line
-	10550 5100 10650 5100
-Wire Wire Line
-	10650 5400 10650 5300
-Wire Wire Line
-	10450 5100 10550 5100
-Wire Wire Line
-	10450 5400 10650 5400
-$Comp
-L Device:D D19
-U 1 1 5DCC0CFE
-P 10450 5250
-F 0 "D19" H 10450 5350 50  0000 C CNN
-F 1 "D" H 10450 5150 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric" H 10450 5250 50  0001 C CNN
-F 3 "~" H 10450 5250 50  0001 C CNN
-	1    10450 5250
-	0    1    1    0   
-$EndComp
-Text GLabel 10450 5400 0    50   UnSpc ~ 0
-Solenoid_B7
-$Comp
-L power:+12V #PWR014
-U 1 1 5DCD2972
-P 4550 5550
-F 0 "#PWR014" H 4550 5400 50  0001 C CNN
-F 1 "+12V" H 4550 5690 50  0000 C CNN
-F 2 "" H 4550 5550 50  0001 C CNN
-F 3 "" H 4550 5550 50  0001 C CNN
-	1    4550 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4650 5550 4650 5650
-Connection ~ 4550 5550
-Wire Wire Line
-	4550 5550 4650 5550
-Wire Wire Line
-	4450 5550 4550 5550
-$Comp
-L Connector_Generic:Conn_01x02 J4
-U 1 1 5DCD29B7
-P 4850 5050
-F 0 "J4" H 4850 5150 50  0000 C CNN
-F 1 "Conn_01x02" H 4850 4850 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4850 5050 50  0001 C CNN
-F 3 "~" H 4850 5050 50  0001 C CNN
-	1    4850 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR013
-U 1 1 5DCD29BD
-P 4550 4950
-F 0 "#PWR013" H 4550 4800 50  0001 C CNN
-F 1 "+12V" H 4550 5090 50  0000 C CNN
-F 2 "" H 4550 4950 50  0001 C CNN
-F 3 "" H 4550 4950 50  0001 C CNN
-	1    4550 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4650 4950 4650 5050
-Connection ~ 4550 4950
-Wire Wire Line
-	4550 4950 4650 4950
-Wire Wire Line
-	4650 5250 4650 5150
-Wire Wire Line
-	4450 4950 4550 4950
-Wire Wire Line
-	4450 5250 4650 5250
-$Comp
-L Device:D D2
-U 1 1 5DCD29C9
-P 4450 5100
-F 0 "D2" H 4450 5200 50  0000 C CNN
-F 1 "D" H 4450 5000 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric" H 4450 5100 50  0001 C CNN
-F 3 "~" H 4450 5100 50  0001 C CNN
-	1    4450 5100
-	0    1    1    0   
-$EndComp
-Text GLabel 4450 5250 0    50   UnSpc ~ 0
-Solenoid_C1
-$Comp
-L Connector_Generic:Conn_01x02 J6
-U 1 1 5DCD29D0
-P 6050 5050
-F 0 "J6" H 6050 5150 50  0000 C CNN
-F 1 "Conn_01x02" H 6050 4850 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 6050 5050 50  0001 C CNN
-F 3 "~" H 6050 5050 50  0001 C CNN
-	1    6050 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR018
-U 1 1 5DCD29D6
-P 5750 4950
-F 0 "#PWR018" H 5750 4800 50  0001 C CNN
-F 1 "+12V" H 5750 5090 50  0000 C CNN
-F 2 "" H 5750 4950 50  0001 C CNN
-F 3 "" H 5750 4950 50  0001 C CNN
-	1    5750 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5850 4950 5850 5050
-Connection ~ 5750 4950
-Wire Wire Line
-	5750 4950 5850 4950
-Wire Wire Line
-	5850 5250 5850 5150
-Wire Wire Line
-	5650 4950 5750 4950
-Wire Wire Line
-	5650 5250 5850 5250
-$Comp
-L Device:D D4
-U 1 1 5DCD29E2
-P 5650 5100
-F 0 "D4" H 5650 5200 50  0000 C CNN
-F 1 "D" H 5650 5000 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric" H 5650 5100 50  0001 C CNN
-F 3 "~" H 5650 5100 50  0001 C CNN
-	1    5650 5100
-	0    1    1    0   
-$EndComp
-Text GLabel 5650 5250 0    50   UnSpc ~ 0
-Solenoid_C3
-NoConn ~ 8100 5050
 NoConn ~ 8100 5150
 NoConn ~ 8100 5250
 NoConn ~ 6900 5250
 NoConn ~ 6900 5150
-NoConn ~ 6900 5050
 Text GLabel 4200 2700 2    50   Input ~ 0
 CAN_RD
 Text GLabel 4200 2800 2    50   Output ~ 0
@@ -1441,21 +709,21 @@ CAN_TXD
 Text GLabel 1150 4150 0    50   Output ~ 0
 CAN_RXD
 $Comp
-L power:+12V #PWR011
+L power:+12V #PWR039
 U 1 1 5DD89AF4
-P 4000 4300
-F 0 "#PWR011" H 4000 4150 50  0001 C CNN
-F 1 "+12V" H 4000 4440 50  0000 C CNN
-F 2 "" H 4000 4300 50  0001 C CNN
-F 3 "" H 4000 4300 50  0001 C CNN
-	1    4000 4300
-	0    -1   -1   0   
+P 3750 4200
+F 0 "#PWR039" H 3750 4050 50  0001 C CNN
+F 1 "+12V" H 3750 4340 50  0000 C CNN
+F 2 "" H 3750 4200 50  0001 C CNN
+F 3 "" H 3750 4200 50  0001 C CNN
+	1    3750 4200
+	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR010
+L power:GNDPWR #PWR031
 U 1 1 5DD96C9D
 P 3700 3400
-F 0 "#PWR010" H 3700 3200 50  0001 C CNN
+F 0 "#PWR031" H 3700 3200 50  0001 C CNN
 F 1 "GNDPWR" H 3700 3270 50  0000 C CNN
 F 2 "" H 3700 3350 50  0001 C CNN
 F 3 "" H 3700 3350 50  0001 C CNN
@@ -1463,10 +731,10 @@ F 3 "" H 3700 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR012
+L power:GNDPWR #PWR09
 U 1 1 5DD9AF89
 P 4250 1150
-F 0 "#PWR012" H 4250 950 50  0001 C CNN
+F 0 "#PWR09" H 4250 950 50  0001 C CNN
 F 1 "GNDPWR" H 4250 1020 50  0000 C CNN
 F 2 "" H 4250 1100 50  0001 C CNN
 F 3 "" H 4250 1100 50  0001 C CNN
@@ -1474,10 +742,10 @@ F 3 "" H 4250 1100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR01
+L power:+3.3V #PWR023
 U 1 1 5DDF21CA
 P 850 3100
-F 0 "#PWR01" H 850 2950 50  0001 C CNN
+F 0 "#PWR023" H 850 2950 50  0001 C CNN
 F 1 "+3.3V" H 865 3273 50  0000 C CNN
 F 2 "" H 850 3100 50  0001 C CNN
 F 3 "" H 850 3100 50  0001 C CNN
@@ -1502,10 +770,10 @@ F 9 "Si8621AB-B-ISR" H 1800 2500 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR04
+L power:GNDPWR #PWR030
 U 1 1 5DE09E4A
 P 1950 3400
-F 0 "#PWR04" H 1950 3200 50  0001 C CNN
+F 0 "#PWR030" H 1950 3200 50  0001 C CNN
 F 1 "GNDPWR" H 1950 3270 50  0000 C CNN
 F 2 "" H 1950 3350 50  0001 C CNN
 F 3 "" H 1950 3350 50  0001 C CNN
@@ -1513,10 +781,10 @@ F 3 "" H 1950 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L power:GND #PWR029
 U 1 1 5DE0E218
 P 850 3400
-F 0 "#PWR02" H 850 3150 50  0001 C CNN
+F 0 "#PWR029" H 850 3150 50  0001 C CNN
 F 1 "GND" H 855 3227 50  0000 C CNN
 F 2 "" H 850 3400 50  0001 C CNN
 F 3 "" H 850 3400 50  0001 C CNN
@@ -1524,77 +792,35 @@ F 3 "" H 850 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR017
+L power:GNDPWR #PWR026
 U 1 1 5DE16A89
 P 5750 3200
-F 0 "#PWR017" H 5750 3000 50  0001 C CNN
+F 0 "#PWR026" H 5750 3000 50  0001 C CNN
 F 1 "GNDPWR" H 5750 3070 50  0000 C CNN
 F 2 "" H 5750 3150 50  0001 C CNN
 F 3 "" H 5750 3150 50  0001 C CNN
 	1    5750 3200
 	0    1    1    0   
 $EndComp
-$Comp
-L power:GNDPWR #PWR07
-U 1 1 5DE1F8BD
-P 2350 1300
-F 0 "#PWR07" H 2350 1100 50  0001 C CNN
-F 1 "GNDPWR" H 2350 1170 50  0000 C CNN
-F 2 "" H 2350 1250 50  0001 C CNN
-F 3 "" H 2350 1250 50  0001 C CNN
-	1    2350 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR06
-U 1 1 5DE23DB2
-P 2350 700
-F 0 "#PWR06" H 2350 550 50  0001 C CNN
-F 1 "+3V3" H 2350 840 50  0000 C CNN
-F 2 "" H 2350 700 50  0001 C CNN
-F 3 "" H 2350 700 50  0001 C CNN
-	1    2350 700 
-	1    0    0    -1  
-$EndComp
-Text GLabel 3200 2500 0    50   Input ~ 0
-IC_A1
-Text GLabel 3200 2400 0    50   Input ~ 0
-IC_A2
-Text GLabel 4200 2300 2    50   Input ~ 0
-IC_A3
-Text GLabel 4200 2200 2    50   Input ~ 0
-IC_A4
-Text GLabel 4200 2100 2    50   Input ~ 0
-IC_A5
-Text GLabel 4200 2000 2    50   Input ~ 0
-IC_A6
-Text GLabel 4200 1900 2    50   Input ~ 0
-IC_A7
-Text GLabel 3200 2600 0    50   Input ~ 0
-IC_B1
-Text GLabel 3200 2700 0    50   Input ~ 0
-IC_B2
-Text GLabel 3200 2800 0    50   Input ~ 0
-IC_B3
-Text GLabel 4200 1700 2    50   Input ~ 0
-IC_B4
-Text GLabel 4200 1600 2    50   Input ~ 0
-IC_B5
-Text GLabel 3200 2200 0    50   Input ~ 0
+Text GLabel 3200 2500 0    50   Output ~ 0
 IC_B6
-Text GLabel 3200 2100 0    50   Input ~ 0
-IC_B7
-Text GLabel 4200 2600 2    50   Input ~ 0
-IC_C1
-Text GLabel 4200 2500 2    50   Input ~ 0
-IC_C2
-Text GLabel 4200 2400 2    50   Input ~ 0
-IC_C3
+Text GLabel 3200 2400 0    50   Output ~ 0
+IC_B5
+Text GLabel 3200 2600 0    50   Output ~ 0
+IC_C4
+Text GLabel 3200 2700 0    50   Output ~ 0
+IC_C5
+Text GLabel 3200 2800 0    50   Input ~ 0
+DIP_SW_1
+Text GLabel 3200 2200 0    50   Output ~ 0
+IC_A3
+Text GLabel 3200 2100 0    50   Output ~ 0
+IC_A2
 $Comp
-L power:GNDPWR #PWR0120
+L power:GNDPWR #PWR043
 U 1 1 5DF13DE4
 P 4300 4600
-F 0 "#PWR0120" H 4300 4400 50  0001 C CNN
+F 0 "#PWR043" H 4300 4400 50  0001 C CNN
 F 1 "GNDPWR" H 4300 4470 50  0000 C CNN
 F 2 "" H 4300 4550 50  0001 C CNN
 F 3 "" H 4300 4550 50  0001 C CNN
@@ -1603,47 +829,41 @@ F 3 "" H 4300 4550 50  0001 C CNN
 $EndComp
 Text GLabel 5250 2000 0    50   Input ~ 0
 VCP_TX
-NoConn ~ 8100 4950
-NoConn ~ 6900 4950
 Text GLabel 3700 1050 1    50   Input ~ 0
 3.3V
 Text GLabel 1950 3100 2    50   Input ~ 0
 3.3V
-Text GLabel 4600 4300 2    50   Output ~ 0
-3.3V
 Text GLabel 5750 3000 1    50   Input ~ 0
 3.3V
 $Comp
-L Connector_Generic:Conn_01x05 J2
+L Connector_Generic:Conn_01x05 J10
 U 1 1 5DAA7AEF
 P 5950 3200
-F 0 "J2" H 6030 3242 50  0000 L CNN
+F 0 "J10" H 6030 3242 50  0000 L CNN
 F 1 "Conn_01x05" H 6030 3151 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 5950 3200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5950 3200 50  0001 C CNN
 F 3 "~" H 5950 3200 50  0001 C CNN
 	1    5950 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 6100 1000 1    50   Input ~ 0
-3.3V
 $Comp
-L Device:C C8
+L Device:C C3
 U 1 1 5DF8A297
 P 7250 1150
-F 0 "C8" H 7275 1250 50  0000 L CNN
-F 1 "0.1uF" H 7275 1050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7288 1000 50  0001 C CNN
+F 0 "C3" H 7275 1250 50  0000 L CNN
+F 1 "0.1u" H 7275 1050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7288 1000 50  0001 C CNN
 F 3 "~" H 7250 1150 50  0001 C CNN
 	1    7250 1150
 	1    0    0    -1  
 $EndComp
 Connection ~ 7250 1000
 $Comp
-L Device:C C7
+L Device:C C2
 U 1 1 5DF8B306
 P 6650 1150
-F 0 "C7" H 6675 1250 50  0000 L CNN
-F 1 "0.33uF" H 6675 1050 50  0000 L CNN
+F 0 "C2" H 6675 1250 50  0000 L CNN
+F 1 "0.33u" H 6675 1050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6688 1000 50  0001 C CNN
 F 3 "~" H 6650 1150 50  0001 C CNN
 	1    6650 1150
@@ -1656,82 +876,26 @@ Wire Wire Line
 Wire Wire Line
 	6650 1300 6950 1300
 $Comp
-L Device:C C9
-U 1 1 5DFB45B2
-P 4000 4450
-F 0 "C9" H 4025 4550 50  0000 L CNN
-F 1 "1.0uF" H 4025 4350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4038 4300 50  0001 C CNN
-F 3 "~" H 4000 4450 50  0001 C CNN
-	1    4000 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C10
+L Device:C C8
 U 1 1 5DFBA8D5
-P 4600 4450
-F 0 "C10" H 4625 4550 50  0000 L CNN
-F 1 "4.7uF" H 4625 4350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4638 4300 50  0001 C CNN
-F 3 "~" H 4600 4450 50  0001 C CNN
-	1    4600 4450
+P 4700 4450
+F 0 "C8" H 4725 4550 50  0000 L CNN
+F 1 "4.7u" H 4725 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4738 4300 50  0001 C CNN
+F 3 "~" H 4700 4450 50  0001 C CNN
+	1    4700 4450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4000 4600 4300 4600
 Connection ~ 4300 4600
-Wire Wire Line
-	4300 4600 4600 4600
-Text GLabel 4450 5850 0    50   UnSpc ~ 0
-Solenoid_C2
-$Comp
-L Device:D D3
-U 1 1 5DCD297E
-P 4450 5700
-F 0 "D3" H 4450 5800 50  0000 C CNN
-F 1 "D" H 4450 5600 50  0000 C CNN
-F 2 "Diode_SMD:D_2010_5025Metric" H 4450 5700 50  0001 C CNN
-F 3 "~" H 4450 5700 50  0001 C CNN
-	1    4450 5700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4450 5850 4650 5850
-Wire Wire Line
-	4650 5850 4650 5750
-$Comp
-L Connector_Generic:Conn_01x02 J5
-U 1 1 5DCD296C
-P 4850 5650
-F 0 "J5" H 4850 5750 50  0000 C CNN
-F 1 "Conn_01x02" H 4850 5450 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4850 5650 50  0001 C CNN
-F 3 "~" H 4850 5650 50  0001 C CNN
-	1    4850 5650
-	1    0    0    -1  
-$EndComp
-Text GLabel 9250 6000 0    50   UnSpc ~ 0
-Solenoid_B4
 Text GLabel 2250 6350 2    50   BiDi ~ 0
 CAN+
 Text GLabel 2250 6250 2    50   BiDi ~ 0
 CAN-
 $Comp
-L power:+5V #PWR0101
-U 1 1 5DE826CA
-P 1150 6050
-F 0 "#PWR0101" H 1150 5900 50  0001 C CNN
-F 1 "+5V" H 1165 6223 50  0000 C CNN
-F 2 "" H 1150 6050 50  0001 C CNN
-F 3 "" H 1150 6050 50  0001 C CNN
-	1    1150 6050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0109
+L power:GND #PWR052
 U 1 1 5DE826D0
 P 1050 6150
-F 0 "#PWR0109" H 1050 5900 50  0001 C CNN
+F 0 "#PWR052" H 1050 5900 50  0001 C CNN
 F 1 "GND" H 1055 5977 50  0000 C CNN
 F 2 "" H 1050 6150 50  0001 C CNN
 F 3 "" H 1050 6150 50  0001 C CNN
@@ -1739,32 +903,10 @@ F 3 "" H 1050 6150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L PCIe:Bus_mechaken_PCIexpress_x16_164_Position J1
-U 1 1 5DEE17BC
-P 1700 9000
-F 0 "J1" H 1700 12100 50  0000 C CNN
-F 1 "Bus_mechaken_PCIexpress_x16_164_Position" H 1650 10700 50  0000 C CNN
-F 2 "PCIe:BUS_mechaken_PCIexpress_x16" H 1350 8900 50  0001 C CNN
-F 3 "http://pinouts.ru/Slots/PCI_pinout.shtml" H 1350 8900 50  0001 C CNN
-	1    1700 9000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0110
-U 1 1 5DEEF584
-P 2250 6050
-F 0 "#PWR0110" H 2250 5900 50  0001 C CNN
-F 1 "+5V" H 2265 6223 50  0000 C CNN
-F 2 "" H 2250 6050 50  0001 C CNN
-F 3 "" H 2250 6050 50  0001 C CNN
-	1    2250 6050
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0111
+L power:GND #PWR053
 U 1 1 5DF01215
 P 2350 6150
-F 0 "#PWR0111" H 2350 5900 50  0001 C CNN
+F 0 "#PWR053" H 2350 5900 50  0001 C CNN
 F 1 "GND" H 2355 5977 50  0000 C CNN
 F 2 "" H 2350 6150 50  0001 C CNN
 F 3 "" H 2350 6150 50  0001 C CNN
@@ -1772,116 +914,982 @@ F 3 "" H 2350 6150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDPWR #PWR0130
+L power:GNDPWR #PWR056
 U 1 1 5DF2E274
 P 2400 7100
-F 0 "#PWR0130" H 2400 6900 50  0001 C CNN
+F 0 "#PWR056" H 2400 6900 50  0001 C CNN
 F 1 "GNDPWR" H 2400 6970 50  0000 C CNN
 F 2 "" H 2400 7050 50  0001 C CNN
 F 3 "" H 2400 7050 50  0001 C CNN
 	1    2400 7100
 	0    -1   -1   0   
 $EndComp
-Connection ~ 1150 7100
-Wire Wire Line
-	2250 7100 2400 7100
-Wire Wire Line
-	1150 6150 1050 6150
-Wire Wire Line
-	2250 6150 2350 6150
-NoConn ~ 1150 6250
-NoConn ~ 1150 6350
-NoConn ~ 1150 6450
-NoConn ~ 2250 6450
 $Comp
-L Solenoid_Valve-rescue:AP1117-33-Regulator_Linear U5
-U 1 1 5DD7E358
-P 4300 4300
-F 0 "U5" H 4150 4425 50  0000 C CNN
-F 1 "LDL1117S33R" H 4300 4425 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4300 4500 50  0001 C CNN
-F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 4400 4050 50  0001 C CNN
-	1    4300 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Solenoid_Valve-rescue:AP1117-33-Regulator_Linear U1
+L Regulator_Linear:LD1117S33TR_SOT223 U2
 U 1 1 5DFCBD4E
 P 1350 1650
-F 0 "U1" H 1200 1775 50  0000 C CNN
-F 1 "LDL1117S33R" H 1350 1775 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 1350 1850 50  0001 C CNN
-F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 1450 1400 50  0001 C CNN
+F 0 "U2" H 1200 1775 50  0000 C CNN
+F 1 "AP2210N-3.3TRG1" H 1350 1775 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 1350 1850 50  0001 C CNN
+F 3 "" H 1450 1400 50  0001 C CNN
 	1    1350 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J7
+L Connector_Generic:Conn_01x03 J5
 U 1 1 5DFD6CDC
 P 5450 2000
-F 0 "J7" H 5450 2200 50  0000 C CNN
+F 0 "J5" H 5450 2200 50  0000 C CNN
 F 1 "Conn_01x03" H 5450 1800 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 5450 2000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5450 2000 50  0001 C CNN
 F 3 "~" H 5450 2000 50  0001 C CNN
 	1    5450 2000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2250 6550
-NoConn ~ 1150 6550
-NoConn ~ 2250 6800
-NoConn ~ 1150 6800
-Wire Wire Line
-	1150 6900 1150 7100
-Connection ~ 2250 7100
-Wire Wire Line
-	2250 6900 2250 7100
 $Comp
-L power:VCC #PWR0117
-U 1 1 5DF17520
-P 2250 7000
-F 0 "#PWR0117" H 2250 6850 50  0001 C CNN
-F 1 "VCC" H 2250 7150 50  0000 C CNN
-F 2 "" H 2250 7000 50  0001 C CNN
-F 3 "" H 2250 7000 50  0001 C CNN
-	1    2250 7000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1000 7100 1150 7100
-$Comp
-L power:GNDPWR #PWR0131
+L power:GNDPWR #PWR055
 U 1 1 5DF3F305
 P 1000 7100
-F 0 "#PWR0131" H 1000 6900 50  0001 C CNN
+F 0 "#PWR055" H 1000 6900 50  0001 C CNN
 F 1 "GNDPWR" H 1000 6970 50  0000 C CNN
 F 2 "" H 1000 7050 50  0001 C CNN
 F 3 "" H 1000 7050 50  0001 C CNN
 	1    1000 7100
 	0    1    1    0   
 $EndComp
-NoConn ~ 1150 7000
 $Comp
-L power:GNDPWR #PWR0115
+L power:GNDPWR #PWR016
 U 1 1 5DF51C19
 P 5250 1900
-F 0 "#PWR0115" H 5250 1700 50  0001 C CNN
+F 0 "#PWR016" H 5250 1700 50  0001 C CNN
 F 1 "GNDPWR" H 5250 1770 50  0000 C CNN
 F 2 "" H 5250 1850 50  0001 C CNN
 F 3 "" H 5250 1850 50  0001 C CNN
 	1    5250 1900
 	0    1    1    0   
 $EndComp
-NoConn ~ 5300 1150
-NoConn ~ 5300 1250
 $Comp
-L power:GNDPWR #PWR?
+L power:GNDPWR #PWR024
 U 1 1 5E334F41
 P 2500 3100
-F 0 "#PWR?" H 2500 2900 50  0001 C CNN
+F 0 "#PWR024" H 2500 2900 50  0001 C CNN
 F 1 "GNDPWR" H 2500 2970 50  0000 C CNN
 F 2 "" H 2500 3050 50  0001 C CNN
 F 3 "" H 2500 3050 50  0001 C CNN
 	1    2500 3100
 	1    0    0    -1  
 $EndComp
+Text GLabel 4200 2400 2    50   Output ~ 0
+IC_C3
+Text GLabel 4200 1600 2    50   Output ~ 0
+IC_A4
+Text GLabel 4200 1700 2    50   Output ~ 0
+IC_A5
+Text GLabel 4200 1900 2    50   Output ~ 0
+IC_A6
+Text GLabel 4200 2000 2    50   Output ~ 0
+IC_B1
+Text GLabel 4200 2100 2    50   Output ~ 0
+IC_B2
+Text GLabel 4200 2200 2    50   Output ~ 0
+IC_B3
+Text GLabel 4200 2300 2    50   Output ~ 0
+IC_B4
+Text GLabel 4200 1800 2    50   Output ~ 0
+VCP_TX
+$Comp
+L Regulator_Linear:LD1117S33TR_SOT223 U4
+U 1 1 5DD7E358
+P 4300 4200
+F 0 "U4" H 4150 4325 50  0000 C CNN
+F 1 "AP2210N-3.3TRG1" H 4300 4325 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4300 4400 50  0001 C CNN
+F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 4400 3950 50  0001 C CNN
+	1    4300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5DFB45B2
+P 3900 4450
+F 0 "C7" H 3925 4550 50  0000 L CNN
+F 1 "1.0u" H 3925 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3938 4300 50  0001 C CNN
+F 3 "~" H 3900 4450 50  0001 C CNN
+	1    3900 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 4750 4200 2    50   Output ~ 0
+3.3V
+Wire Wire Line
+	4600 4200 4700 4200
+Wire Wire Line
+	4700 4200 4700 4300
+Connection ~ 4700 4200
+Wire Wire Line
+	4700 4200 4750 4200
+Wire Wire Line
+	4300 4600 4700 4600
+Wire Wire Line
+	3900 4600 4300 4600
+Wire Wire Line
+	3900 4300 3900 4200
+Wire Wire Line
+	3900 4200 3750 4200
+Wire Wire Line
+	4000 4200 3900 4200
+Connection ~ 3900 4200
+$Comp
+L Device:D_Schottky D11
+U 1 1 5E670817
+P 4300 3900
+F 0 "D11" H 4300 4116 50  0000 C CNN
+F 1 "D_Schottky" H 4300 4025 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4300 3900 50  0001 C CNN
+F 3 "~" H 4300 3900 50  0001 C CNN
+	1    4300 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 3900 4600 3900
+Wire Wire Line
+	4600 3900 4600 4200
+Connection ~ 4600 4200
+Wire Wire Line
+	4300 4500 4300 4600
+$Comp
+L power:VCC #PWR033
+U 1 1 5E7364FE
+P 4000 3800
+F 0 "#PWR033" H 4000 3650 50  0001 C CNN
+F 1 "VCC" H 4000 3950 50  0000 C CNN
+F 2 "" H 4000 3800 50  0001 C CNN
+F 3 "" H 4000 3800 50  0001 C CNN
+	1    4000 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3800 4000 3900
+Wire Wire Line
+	4000 3900 4150 3900
+NoConn ~ 1150 7000
+NoConn ~ 1150 6800
+NoConn ~ 1150 6550
+NoConn ~ 1150 6450
+NoConn ~ 1150 6350
+NoConn ~ 1150 6250
+Wire Wire Line
+	1150 6150 1050 6150
+Wire Wire Line
+	1000 7100 1150 7100
+Wire Wire Line
+	1150 6900 1150 7100
+Connection ~ 1150 7100
+$Comp
+L power:+5V #PWR050
+U 1 1 5DE826CA
+P 1150 6050
+F 0 "#PWR050" H 1150 5900 50  0001 C CNN
+F 1 "+5V" H 1165 6223 50  0000 C CNN
+F 2 "" H 1150 6050 50  0001 C CNN
+F 3 "" H 1150 6050 50  0001 C CNN
+	1    1150 6050
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 2250 6800
+NoConn ~ 2250 6550
+NoConn ~ 2250 6450
+Wire Wire Line
+	2250 6150 2350 6150
+$Comp
+L power:+5V #PWR051
+U 1 1 5DEEF584
+P 2250 6050
+F 0 "#PWR051" H 2250 5900 50  0001 C CNN
+F 1 "+5V" H 2265 6223 50  0000 C CNN
+F 2 "" H 2250 6050 50  0001 C CNN
+F 3 "" H 2250 6050 50  0001 C CNN
+	1    2250 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 7100 2350 7100
+$Comp
+L power:VCC #PWR054
+U 1 1 5DF17520
+P 2450 6850
+F 0 "#PWR054" H 2450 6700 50  0001 C CNN
+F 1 "VCC" H 2450 7000 50  0000 C CNN
+F 2 "" H 2450 6850 50  0001 C CNN
+F 3 "" H 2450 6850 50  0001 C CNN
+	1    2450 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PCIe:Bus_mechaken_PCIexpress_x16_164_Position J20
+U 1 1 5DEE17BC
+P 1700 9000
+F 0 "J20" H 1700 12100 50  0000 C CNN
+F 1 "Bus_mechaken_PCIexpress_x16_164_Position" H 1650 10700 50  0000 C CNN
+F 2 "PCIe:BUS_mechaken_PCIexpress_x16" H 1350 8900 50  0001 C CNN
+F 3 "http://pinouts.ru/Slots/PCI_pinout.shtml" H 1350 8900 50  0001 C CNN
+	1    1700 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 6900 2350 6900
+Wire Wire Line
+	2350 6900 2350 7100
+Connection ~ 2350 7100
+Wire Wire Line
+	2350 7100 2400 7100
+Wire Wire Line
+	2250 7000 2450 7000
+Wire Wire Line
+	2450 7000 2450 6850
+NoConn ~ 5300 1550
+$Comp
+L Switch:SW_DIP_x04 S1
+U 1 1 5DD6F810
+P 5600 1550
+F 0 "S1" H 5769 1815 50  0000 L CNN
+F 1 "IKD0403101" H 5769 1724 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 6250 1650 50  0001 L CNN
+F 3 "" H 6250 1550 50  0001 L CNN
+F 4 "" H 6250 1450 50  0001 L CNN "Description"
+F 5 "" H 6250 1350 50  0001 L CNN "Height"
+F 6 "" H 6250 1250 50  0001 L CNN "RS Part Number"
+F 7 "" H 6250 1150 50  0001 L CNN "RS Price/Stock"
+F 8 "" H 6250 1050 50  0001 L CNN "Manufacturer_Name"
+F 9 "" H 6250 950 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5600 1550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5300 1650
+Wire Wire Line
+	5300 1150 5300 1350
+Text GLabel 5300 1150 1    50   Input ~ 0
+3.3V
+NoConn ~ 5900 1550
+NoConn ~ 5900 1650
+NoConn ~ 7800 -1200
+Text GLabel 8100 2050 2    50   UnSpc ~ 0
+Solenoid_A5
+Text GLabel 8100 2150 2    50   UnSpc ~ 0
+Solenoid_A4
+NoConn ~ 6900 1850
+NoConn ~ 8100 1850
+Text GLabel 6900 4950 0    50   Input ~ 0
+IC_C2
+Text GLabel 6900 5050 0    50   Input ~ 0
+IC_C1
+Text GLabel 6900 4650 0    50   Input ~ 0
+IC_C5
+Text GLabel 6900 4750 0    50   Input ~ 0
+IC_C4
+$Comp
+L Connector_Generic:Conn_01x02 J17
+U 1 1 5DCD296C
+P 9650 5250
+F 0 "J17" H 9650 5350 50  0000 C CNN
+F 1 "Conn_01x02" H 9650 5050 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 9650 5250 50  0001 C CNN
+F 3 "~" H 9650 5250 50  0001 C CNN
+	1    9650 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 5450 9450 5350
+Wire Wire Line
+	9250 5450 9450 5450
+$Comp
+L Device:D D16
+U 1 1 5DCD297E
+P 9250 5300
+F 0 "D16" H 9250 5400 50  0000 C CNN
+F 1 "D" H 9250 5200 50  0000 C CNN
+F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 9250 5300 50  0001 C CNN
+F 3 "~" H 9250 5300 50  0001 C CNN
+	1    9250 5300
+	0    1    1    0   
+$EndComp
+Text GLabel 9250 5450 0    50   UnSpc ~ 0
+Solenoid_C1
+Text GLabel 9250 4850 0    50   UnSpc ~ 0
+Solenoid_C3
+$Comp
+L Device:D D14
+U 1 1 5DCD29C9
+P 9250 4700
+F 0 "D14" H 9250 4800 50  0000 C CNN
+F 1 "D" H 9250 4600 50  0000 C CNN
+F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 9250 4700 50  0001 C CNN
+F 3 "~" H 9250 4700 50  0001 C CNN
+	1    9250 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9250 4850 9450 4850
+Wire Wire Line
+	9250 4550 9350 4550
+Wire Wire Line
+	9450 4850 9450 4750
+Wire Wire Line
+	9350 4550 9450 4550
+Connection ~ 9350 4550
+Wire Wire Line
+	9450 4550 9450 4650
+$Comp
+L power:+12V #PWR041
+U 1 1 5DCD29BD
+P 9350 4550
+F 0 "#PWR041" H 9350 4400 50  0001 C CNN
+F 1 "+12V" H 9350 4690 50  0000 C CNN
+F 2 "" H 9350 4550 50  0001 C CNN
+F 3 "" H 9350 4550 50  0001 C CNN
+	1    9350 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J15
+U 1 1 5DCD29B7
+P 9650 4650
+F 0 "J15" H 9650 4750 50  0000 C CNN
+F 1 "Conn_01x02" H 9650 4450 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 9650 4650 50  0001 C CNN
+F 3 "~" H 9650 4650 50  0001 C CNN
+	1    9650 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 5150 9350 5150
+Wire Wire Line
+	9350 5150 9450 5150
+Connection ~ 9350 5150
+Wire Wire Line
+	9450 5150 9450 5250
+$Comp
+L power:+12V #PWR046
+U 1 1 5DCD2972
+P 9350 5150
+F 0 "#PWR046" H 9350 5000 50  0001 C CNN
+F 1 "+12V" H 9350 5290 50  0000 C CNN
+F 2 "" H 9350 5150 50  0001 C CNN
+F 3 "" H 9350 5150 50  0001 C CNN
+	1    9350 5150
+	1    0    0    -1  
+$EndComp
+Text GLabel 10450 4200 0    50   UnSpc ~ 0
+Solenoid_A2
+$Comp
+L Device:D D13
+U 1 1 5DCC0CE5
+P 10450 4050
+F 0 "D13" H 10450 4150 50  0000 C CNN
+F 1 "D" H 10450 3950 50  0000 C CNN
+F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 10450 4050 50  0001 C CNN
+F 3 "~" H 10450 4050 50  0001 C CNN
+	1    10450 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10450 4200 10650 4200
+Wire Wire Line
+	10450 3900 10550 3900
+Wire Wire Line
+	10650 4200 10650 4100
+Wire Wire Line
+	10550 3900 10650 3900
+Connection ~ 10550 3900
+Wire Wire Line
+	10650 3900 10650 4000
+$Comp
+L power:+12V #PWR036
+U 1 1 5DCC0CD9
+P 10550 3900
+F 0 "#PWR036" H 10550 3750 50  0001 C CNN
+F 1 "+12V" H 10550 4040 50  0000 C CNN
+F 2 "" H 10550 3900 50  0001 C CNN
+F 3 "" H 10550 3900 50  0001 C CNN
+	1    10550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J14
+U 1 1 5DCC0CD3
+P 10850 4000
+F 0 "J14" H 10850 4100 50  0000 C CNN
+F 1 "Conn_01x02" H 10850 3800 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 10850 4000 50  0001 C CNN
+F 3 "~" H 10850 4000 50  0001 C CNN
+	1    10850 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 10450 3600 0    50   UnSpc ~ 0
+Solenoid_A4
+$Comp
+L Device:D D10
+U 1 1 5DCC0CCC
+P 10450 3450
+F 0 "D10" H 10450 3550 50  0000 C CNN
+F 1 "D" H 10450 3350 50  0000 C CNN
+F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 10450 3450 50  0001 C CNN
+F 3 "~" H 10450 3450 50  0001 C CNN
+	1    10450 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10450 3600 10650 3600
+Wire Wire Line
+	10450 3300 10550 3300
+Wire Wire Line
+	10650 3600 10650 3500
+Wire Wire Line
+	10550 3300 10650 3300
+Connection ~ 10550 3300
+Wire Wire Line
+	10650 3300 10650 3400
+$Comp
+L power:+12V #PWR028
+U 1 1 5DCC0CC0
+P 10550 3300
+F 0 "#PWR028" H 10550 3150 50  0001 C CNN
+F 1 "+12V" H 10550 3440 50  0000 C CNN
+F 2 "" H 10550 3300 50  0001 C CNN
+F 3 "" H 10550 3300 50  0001 C CNN
+	1    10550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J12
+U 1 1 5DCC0CBA
+P 10850 3400
+F 0 "J12" H 10850 3500 50  0000 C CNN
+F 1 "Conn_01x02" H 10850 3200 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 10850 3400 50  0001 C CNN
+F 3 "~" H 10850 3400 50  0001 C CNN
+	1    10850 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 10450 5450 0    50   UnSpc ~ 0
+Solenoid_C5
+$Comp
+L Device:D D17
+U 1 1 5DCC0CB3
+P 10450 5300
+F 0 "D17" H 10450 5400 50  0000 C CNN
+F 1 "D" H 10450 5200 50  0000 C CNN
+F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 10450 5300 50  0001 C CNN
+F 3 "~" H 10450 5300 50  0001 C CNN
+	1    10450 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10450 5450 10650 5450
+Wire Wire Line
+	10450 5150 10550 5150
+Wire Wire Line
+	10650 5450 10650 5350
+Wire Wire Line
+	10550 5150 10650 5150
+Connection ~ 10550 5150
+Wire Wire Line
+	10650 5150 10650 5250
+$Comp
+L power:+12V #PWR047
+U 1 1 5DCC0CA7
+P 10550 5150
+F 0 "#PWR047" H 10550 5000 50  0001 C CNN
+F 1 "+12V" H 10550 5290 50  0000 C CNN
+F 2 "" H 10550 5150 50  0001 C CNN
+F 3 "" H 10550 5150 50  0001 C CNN
+	1    10550 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J18
+U 1 1 5DCC0CA1
+P 10850 5250
+F 0 "J18" H 10850 5350 50  0000 C CNN
+F 1 "Conn_01x02" H 10850 5050 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 10850 5250 50  0001 C CNN
+F 3 "~" H 10850 5250 50  0001 C CNN
+	1    10850 5250
+	1    0    0    -1  
+$EndComp
+Text GLabel 9250 4200 0    50   UnSpc ~ 0
+Solenoid_A5
+$Comp
+L Device:D D12
+U 1 1 5DCC0C81
+P 9250 4050
+F 0 "D12" H 9250 4150 50  0000 C CNN
+F 1 "D" H 9250 3950 50  0000 C CNN
+F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 9250 4050 50  0001 C CNN
+F 3 "~" H 9250 4050 50  0001 C CNN
+	1    9250 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9250 4200 9450 4200
+Wire Wire Line
+	9250 3900 9350 3900
+Wire Wire Line
+	9450 4200 9450 4100
+Wire Wire Line
+	9350 3900 9450 3900
+Connection ~ 9350 3900
+Wire Wire Line
+	9450 3900 9450 4000
+$Comp
+L power:+12V #PWR035
+U 1 1 5DCC0C75
+P 9350 3900
+F 0 "#PWR035" H 9350 3750 50  0001 C CNN
+F 1 "+12V" H 9350 4040 50  0000 C CNN
+F 2 "" H 9350 3900 50  0001 C CNN
+F 3 "" H 9350 3900 50  0001 C CNN
+	1    9350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J13
+U 1 1 5DCC0C6F
+P 9650 4000
+F 0 "J13" H 9650 4100 50  0000 C CNN
+F 1 "Conn_01x02" H 9650 3800 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 9650 4000 50  0001 C CNN
+F 3 "~" H 9650 4000 50  0001 C CNN
+	1    9650 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 9250 3600 0    50   UnSpc ~ 0
+Solenoid_A6
+$Comp
+L Device:D D9
+U 1 1 5DCC0C68
+P 9250 3450
+F 0 "D9" H 9250 3550 50  0000 C CNN
+F 1 "D" H 9250 3350 50  0000 C CNN
+F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 9250 3450 50  0001 C CNN
+F 3 "~" H 9250 3450 50  0001 C CNN
+	1    9250 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9250 3600 9450 3600
+Wire Wire Line
+	9250 3300 9350 3300
+Wire Wire Line
+	9450 3600 9450 3500
+Wire Wire Line
+	9350 3300 9450 3300
+Connection ~ 9350 3300
+Wire Wire Line
+	9450 3300 9450 3400
+$Comp
+L power:+12V #PWR027
+U 1 1 5DCC0C5C
+P 9350 3300
+F 0 "#PWR027" H 9350 3150 50  0001 C CNN
+F 1 "+12V" H 9350 3440 50  0000 C CNN
+F 2 "" H 9350 3300 50  0001 C CNN
+F 3 "" H 9350 3300 50  0001 C CNN
+	1    9350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J11
+U 1 1 5DCC0C56
+P 9650 3400
+F 0 "J11" H 9650 3500 50  0000 C CNN
+F 1 "Conn_01x02" H 9650 3200 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 9650 3400 50  0001 C CNN
+F 3 "~" H 9650 3400 50  0001 C CNN
+	1    9650 3400
+	1    0    0    -1  
+$EndComp
+Text GLabel 10450 3000 0    50   UnSpc ~ 0
+Solenoid_A3
+$Comp
+L Device:D D8
+U 1 1 5DCC0C9A
+P 10450 2850
+F 0 "D8" H 10450 2950 50  0000 C CNN
+F 1 "D" H 10450 2750 50  0000 C CNN
+F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 10450 2850 50  0001 C CNN
+F 3 "~" H 10450 2850 50  0001 C CNN
+	1    10450 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10450 3000 10650 3000
+Wire Wire Line
+	10450 2700 10550 2700
+Wire Wire Line
+	10650 3000 10650 2900
+Wire Wire Line
+	10550 2700 10650 2700
+Connection ~ 10550 2700
+Wire Wire Line
+	10650 2700 10650 2800
+$Comp
+L power:+12V #PWR021
+U 1 1 5DCC0C8E
+P 10550 2700
+F 0 "#PWR021" H 10550 2550 50  0001 C CNN
+F 1 "+12V" H 10550 2840 50  0000 C CNN
+F 2 "" H 10550 2700 50  0001 C CNN
+F 3 "" H 10550 2700 50  0001 C CNN
+	1    10550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 5DCC0C88
+P 10850 2800
+F 0 "J9" H 10850 2900 50  0000 C CNN
+F 1 "Conn_01x02" H 10850 2600 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 10850 2800 50  0001 C CNN
+F 3 "~" H 10850 2800 50  0001 C CNN
+	1    10850 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 10450 1050 0    50   UnSpc ~ 0
+Solenoid_B4
+$Comp
+L Device:D D2
+U 1 1 5DCA454A
+P 10450 900
+F 0 "D2" H 10450 1000 50  0000 C CNN
+F 1 "D" H 10450 800 50  0000 C CNN
+F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 10450 900 50  0001 C CNN
+F 3 "~" H 10450 900 50  0001 C CNN
+	1    10450 900 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10450 1050 10650 1050
+Wire Wire Line
+	10450 750  10550 750 
+Wire Wire Line
+	10650 1050 10650 950 
+Wire Wire Line
+	10550 750  10650 750 
+Connection ~ 10550 750 
+Wire Wire Line
+	10650 750  10650 850 
+$Comp
+L power:+12V #PWR02
+U 1 1 5DCA453E
+P 10550 750
+F 0 "#PWR02" H 10550 600 50  0001 C CNN
+F 1 "+12V" H 10550 890 50  0000 C CNN
+F 2 "" H 10550 750 50  0001 C CNN
+F 3 "" H 10550 750 50  0001 C CNN
+	1    10550 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5DCA4538
+P 10850 850
+F 0 "J2" H 10850 950 50  0000 C CNN
+F 1 "Conn_01x02" H 10850 650 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 10850 850 50  0001 C CNN
+F 3 "~" H 10850 850 50  0001 C CNN
+	1    10850 850 
+	1    0    0    -1  
+$EndComp
+Text GLabel 10450 2250 0    50   UnSpc ~ 0
+Solenoid_B6
+$Comp
+L Device:D D6
+U 1 1 5DCA8A78
+P 10450 2100
+F 0 "D6" H 10450 2200 50  0000 C CNN
+F 1 "D" H 10450 2000 50  0000 C CNN
+F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 10450 2100 50  0001 C CNN
+F 3 "~" H 10450 2100 50  0001 C CNN
+	1    10450 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10450 2250 10650 2250
+Wire Wire Line
+	10450 1950 10550 1950
+Wire Wire Line
+	10650 2250 10650 2150
+Wire Wire Line
+	10550 1950 10650 1950
+Connection ~ 10550 1950
+Wire Wire Line
+	10650 1950 10650 2050
+$Comp
+L power:+12V #PWR018
+U 1 1 5DCA8A6C
+P 10550 1950
+F 0 "#PWR018" H 10550 1800 50  0001 C CNN
+F 1 "+12V" H 10550 2090 50  0000 C CNN
+F 2 "" H 10550 1950 50  0001 C CNN
+F 3 "" H 10550 1950 50  0001 C CNN
+	1    10550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 5DCA8A66
+P 10850 2050
+F 0 "J7" H 10850 2150 50  0000 C CNN
+F 1 "Conn_01x02" H 10850 1850 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 10850 2050 50  0001 C CNN
+F 3 "~" H 10850 2050 50  0001 C CNN
+	1    10850 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 10450 1650 0    50   UnSpc ~ 0
+Solenoid_B5
+$Comp
+L Device:D D4
+U 1 1 5DCA719F
+P 10450 1500
+F 0 "D4" H 10450 1600 50  0000 C CNN
+F 1 "D" H 10450 1400 50  0000 C CNN
+F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 10450 1500 50  0001 C CNN
+F 3 "~" H 10450 1500 50  0001 C CNN
+	1    10450 1500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10450 1650 10650 1650
+Wire Wire Line
+	10450 1350 10550 1350
+Wire Wire Line
+	10650 1650 10650 1550
+Wire Wire Line
+	10550 1350 10650 1350
+Connection ~ 10550 1350
+Wire Wire Line
+	10650 1350 10650 1450
+$Comp
+L power:+12V #PWR012
+U 1 1 5DCA7193
+P 10550 1350
+F 0 "#PWR012" H 10550 1200 50  0001 C CNN
+F 1 "+12V" H 10550 1490 50  0000 C CNN
+F 2 "" H 10550 1350 50  0001 C CNN
+F 3 "" H 10550 1350 50  0001 C CNN
+	1    10550 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5DCA718D
+P 10850 1450
+F 0 "J4" H 10850 1550 50  0000 C CNN
+F 1 "Conn_01x02" H 10850 1250 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 10850 1450 50  0001 C CNN
+F 3 "~" H 10850 1450 50  0001 C CNN
+	1    10850 1450
+	1    0    0    -1  
+$EndComp
+Text GLabel 9250 3000 0    50   UnSpc ~ 0
+Solenoid_A1
+$Comp
+L Device:D D7
+U 1 1 5DCC0CFE
+P 9250 2850
+F 0 "D7" H 9250 2950 50  0000 C CNN
+F 1 "D" H 9250 2750 50  0000 C CNN
+F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 9250 2850 50  0001 C CNN
+F 3 "~" H 9250 2850 50  0001 C CNN
+	1    9250 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9250 3000 9450 3000
+Wire Wire Line
+	9450 3000 9450 2900
+Wire Wire Line
+	9450 2700 9450 2800
+Wire Wire Line
+	9250 2700 9350 2700
+Wire Wire Line
+	9350 2700 9450 2700
+Connection ~ 9350 2700
+$Comp
+L power:+12V #PWR020
+U 1 1 5DCC0CF2
+P 9350 2700
+F 0 "#PWR020" H 9350 2550 50  0001 C CNN
+F 1 "+12V" H 9350 2840 50  0000 C CNN
+F 2 "" H 9350 2700 50  0001 C CNN
+F 3 "" H 9350 2700 50  0001 C CNN
+	1    9350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 5DCC0CEC
+P 9650 2800
+F 0 "J8" H 9650 2900 50  0000 C CNN
+F 1 "Conn_01x02" H 9650 2600 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 9650 2800 50  0001 C CNN
+F 3 "~" H 9650 2800 50  0001 C CNN
+	1    9650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J19
+U 1 1 5DCD29D0
+P 9650 5850
+F 0 "J19" H 9650 5950 50  0000 C CNN
+F 1 "Conn_01x02" H 9650 5650 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 9650 5850 50  0001 C CNN
+F 3 "~" H 9650 5850 50  0001 C CNN
+	1    9650 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR049
+U 1 1 5DCD29D6
+P 9350 5750
+F 0 "#PWR049" H 9350 5600 50  0001 C CNN
+F 1 "+12V" H 9350 5890 50  0000 C CNN
+F 2 "" H 9350 5750 50  0001 C CNN
+F 3 "" H 9350 5750 50  0001 C CNN
+	1    9350 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 5750 9450 5850
+Connection ~ 9350 5750
+Wire Wire Line
+	9350 5750 9450 5750
+Wire Wire Line
+	9450 6050 9450 5950
+Wire Wire Line
+	9250 5750 9350 5750
+Wire Wire Line
+	9250 6050 9450 6050
+$Comp
+L Device:D D18
+U 1 1 5DCD29E2
+P 9250 5900
+F 0 "D18" H 9250 6000 50  0000 C CNN
+F 1 "D" H 9250 5800 50  0000 C CNN
+F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 9250 5900 50  0001 C CNN
+F 3 "~" H 9250 5900 50  0001 C CNN
+	1    9250 5900
+	0    1    1    0   
+$EndComp
+Text GLabel 9250 6050 0    50   UnSpc ~ 0
+Solenoid_C2
+Text GLabel 10450 4850 0    50   UnSpc ~ 0
+Solenoid_C4
+$Comp
+L Device:D D15
+U 1 1 5DCAA591
+P 10450 4700
+F 0 "D15" H 10450 4800 50  0000 C CNN
+F 1 "D" H 10450 4600 50  0000 C CNN
+F 2 "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" H 10450 4700 50  0001 C CNN
+F 3 "~" H 10450 4700 50  0001 C CNN
+	1    10450 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10450 4850 10650 4850
+Wire Wire Line
+	10650 4850 10650 4750
+Wire Wire Line
+	10650 4550 10650 4650
+Wire Wire Line
+	10450 4550 10550 4550
+Wire Wire Line
+	10550 4550 10650 4550
+Connection ~ 10550 4550
+$Comp
+L power:+12V #PWR042
+U 1 1 5DCAA585
+P 10550 4550
+F 0 "#PWR042" H 10550 4400 50  0001 C CNN
+F 1 "+12V" H 10550 4690 50  0000 C CNN
+F 2 "" H 10550 4550 50  0001 C CNN
+F 3 "" H 10550 4550 50  0001 C CNN
+	1    10550 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J16
+U 1 1 5DCAA57F
+P 10850 4650
+F 0 "J16" H 10850 4750 50  0000 C CNN
+F 1 "Conn_01x02" H 10850 4450 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 10850 4650 50  0001 C CNN
+F 3 "~" H 10850 4650 50  0001 C CNN
+	1    10850 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 9250 2250 0    50   UnSpc ~ 0
+Solenoid_B3
+Text GLabel 8100 2350 2    50   UnSpc ~ 0
+Solenoid_A2
+Text GLabel 8100 2450 2    50   UnSpc ~ 0
+Solenoid_A1
+Text GLabel 8100 2250 2    50   UnSpc ~ 0
+Solenoid_A3
+$Comp
+L Solenoid_Valve-rescue:ULN2003D1013TR-dk_Transistors-Bipolar-BJT-Arrays Q2
+U 1 1 5DC99CAB
+P 7500 3550
+F 0 "Q2" H 6999 4094 60  0000 L CNN
+F 1 "ULN2004D1013TR" H 7507 3000 60  0000 L CNN
+F 2 "digikey-footprints:SOIC-16_W3.90mm" H 7700 3750 60  0001 L CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf" H 7700 3850 60  0001 L CNN
+F 4 "497-2345-1-ND" H 7700 3950 60  0001 L CNN "Digi-Key_PN"
+F 5 "ULN2003D1013TR" H 7700 4050 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7700 4150 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Arrays" H 7700 4250 60  0001 L CNN "Family"
+F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf" H 7700 4350 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/stmicroelectronics/ULN2003D1013TR/497-2345-1-ND/599201" H 7700 4450 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC PWR RELAY 7NPN 1:1 16SO" H 7700 4550 60  0001 L CNN "Description"
+F 11 "STMicroelectronics" H 7700 4650 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7700 4750 60  0001 L CNN "Status"
+	1    7500 3550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6900 3250
+NoConn ~ 8100 3250
+Text GLabel 4200 2500 2    50   Output ~ 0
+IC_C2
+Text GLabel 4200 2600 2    50   Output ~ 0
+IC_C1
+$Comp
+L Solenoid_Valve-rescue:ULN2003D1013TR-dk_Transistors-Bipolar-BJT-Arrays Q3
+U 1 1 5DCA1834
+P 7500 4950
+F 0 "Q3" H 6999 5494 60  0000 L CNN
+F 1 "ULN2004D1013TR" H 7507 4400 60  0000 L CNN
+F 2 "digikey-footprints:SOIC-16_W3.90mm" H 7700 5150 60  0001 L CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf" H 7700 5250 60  0001 L CNN
+F 4 "497-2345-1-ND" H 7700 5350 60  0001 L CNN "Digi-Key_PN"
+F 5 "ULN2003D1013TR" H 7700 5450 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7700 5550 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Arrays" H 7700 5650 60  0001 L CNN "Family"
+F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf" H 7700 5750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/stmicroelectronics/ULN2003D1013TR/497-2345-1-ND/599201" H 7700 5850 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC PWR RELAY 7NPN 1:1 16SO" H 7700 5950 60  0001 L CNN "Description"
+F 11 "STMicroelectronics" H 7700 6050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7700 6150 60  0001 L CNN "Status"
+	1    7500 4950
+	1    0    0    -1  
+$EndComp
+Text GLabel 6900 4850 0    50   Input ~ 0
+IC_C3
+Text GLabel 5900 1350 2    50   Output ~ 0
+DIP_SW_1
+Connection ~ 5300 1350
+Wire Wire Line
+	5300 1350 5300 1450
 $EndSCHEMATC
