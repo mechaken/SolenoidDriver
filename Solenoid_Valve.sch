@@ -64,7 +64,7 @@ U 1 1 5D5F66CE
 P 2250 3850
 F 0 "C6" V 1998 3850 50  0000 C CNN
 F 1 "0.1u" V 2089 3850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2288 3700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2288 3700 50  0001 C CNN
 F 3 "~" H 2250 3850 50  0001 C CNN
 	1    2250 3850
 	0    1    1    0   
@@ -87,7 +87,7 @@ U 1 1 5D5FFC46
 P 850 4500
 F 0 "C9" V 598 4500 50  0000 C CNN
 F 1 "0.1u" V 689 4500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 888 4350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 888 4350 50  0001 C CNN
 F 3 "~" H 850 4500 50  0001 C CNN
 	1    850  4500
 	-1   0    0    1   
@@ -205,7 +205,7 @@ U 1 1 5DA7A5B9
 P 1000 1800
 F 0 "C4" V 748 1800 50  0000 C CNN
 F 1 "1.0u" V 839 1800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1038 1650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1038 1650 50  0001 C CNN
 F 3 "~" H 1000 1800 50  0001 C CNN
 	1    1000 1800
 	1    0    0    -1  
@@ -216,7 +216,7 @@ U 1 1 5DA788D5
 P 1700 1800
 F 0 "C5" V 1448 1800 50  0000 C CNN
 F 1 "2.2u" V 1539 1800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1738 1650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1738 1650 50  0001 C CNN
 F 3 "~" H 1700 1800 50  0001 C CNN
 	1    1700 1800
 	-1   0    0    1   
@@ -266,7 +266,7 @@ U 1 1 5D5F70AF
 P 4100 1150
 F 0 "C1" V 3848 1150 50  0000 C CNN
 F 1 "0.1u" V 3939 1150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4138 1000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4138 1000 50  0001 C CNN
 F 3 "~" H 4100 1150 50  0001 C CNN
 	1    4100 1150
 	0    1    1    0   
@@ -277,7 +277,7 @@ U 1 1 5D5AB267
 P 2650 3100
 F 0 "R1" V 2443 3100 50  0000 C CNN
 F 1 "10K" V 2534 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2580 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2580 3100 50  0001 C CNN
 F 3 "~" H 2650 3100 50  0001 C CNN
 	1    2650 3100
 	0    1    1    0   
@@ -462,26 +462,6 @@ Text GLabel 3200 2900 0    50   Input ~ 0
 DIP_SW_2
 Text GLabel 3200 3000 0    50   Input ~ 0
 IC_A1
-$Comp
-L Solenoid_Valve-rescue:ULN2003D1013TR-dk_Transistors-Bipolar-BJT-Arrays Q1
-U 1 1 5DC2DB55
-P 7500 2150
-F 0 "Q1" H 6999 2694 60  0000 L CNN
-F 1 "ULN2004D1013TR" H 7507 1600 60  0000 L CNN
-F 2 "digikey-footprints:SOIC-16_W3.90mm" H 7700 2350 60  0001 L CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf" H 7700 2450 60  0001 L CNN
-F 4 "497-2345-1-ND" H 7700 2550 60  0001 L CNN "Digi-Key_PN"
-F 5 "ULN2003D1013TR" H 7700 2650 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 7700 2750 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Arrays" H 7700 2850 60  0001 L CNN "Family"
-F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf" H 7700 2950 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/stmicroelectronics/ULN2003D1013TR/497-2345-1-ND/599201" H 7700 3050 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC PWR RELAY 7NPN 1:1 16SO" H 7700 3150 60  0001 L CNN "Description"
-F 11 "STMicroelectronics" H 7700 3250 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7700 3350 60  0001 L CNN "Status"
-	1    7500 2150
-	1    0    0    -1  
-$EndComp
 Text GLabel 8100 1950 2    50   UnSpc ~ 0
 Solenoid_A6
 Text GLabel 8100 4750 2    50   UnSpc ~ 0
@@ -510,18 +490,6 @@ F 3 "~" H 9250 1500 50  0001 C CNN
 $EndComp
 Text GLabel 9250 1650 0    50   UnSpc ~ 0
 Solenoid_B2
-Text GLabel 6900 2450 0    50   Input ~ 0
-IC_A1
-Text GLabel 6900 2350 0    50   Input ~ 0
-IC_A2
-Text GLabel 6900 2250 0    50   Input ~ 0
-IC_A3
-Text GLabel 6900 2150 0    50   Input ~ 0
-IC_A4
-Text GLabel 6900 2050 0    50   Input ~ 0
-IC_A5
-Text GLabel 6900 1950 0    50   Input ~ 0
-IC_A6
 $Comp
 L power:GNDPWR #PWR038
 U 1 1 5DC99C96
@@ -852,7 +820,7 @@ U 1 1 5DF8A297
 P 7250 1150
 F 0 "C3" H 7275 1250 50  0000 L CNN
 F 1 "0.1u" H 7275 1050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7288 1000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7288 1000 50  0001 C CNN
 F 3 "~" H 7250 1150 50  0001 C CNN
 	1    7250 1150
 	1    0    0    -1  
@@ -864,7 +832,7 @@ U 1 1 5DF8B306
 P 6650 1150
 F 0 "C2" H 6675 1250 50  0000 L CNN
 F 1 "0.33u" H 6675 1050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6688 1000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6688 1000 50  0001 C CNN
 F 3 "~" H 6650 1150 50  0001 C CNN
 	1    6650 1150
 	1    0    0    -1  
@@ -880,8 +848,8 @@ L Device:C C8
 U 1 1 5DFBA8D5
 P 4700 4450
 F 0 "C8" H 4725 4550 50  0000 L CNN
-F 1 "4.7u" H 4725 4350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4738 4300 50  0001 C CNN
+F 1 "2.2u" H 4725 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4738 4300 50  0001 C CNN
 F 3 "~" H 4700 4450 50  0001 C CNN
 	1    4700 4450
 	1    0    0    -1  
@@ -1014,7 +982,7 @@ U 1 1 5DFB45B2
 P 3900 4450
 F 0 "C7" H 3925 4550 50  0000 L CNN
 F 1 "1.0u" H 3925 4350 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3938 4300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3938 4300 50  0001 C CNN
 F 3 "~" H 3900 4450 50  0001 C CNN
 	1    3900 4450
 	1    0    0    -1  
@@ -1892,4 +1860,90 @@ DIP_SW_1
 Connection ~ 5300 1350
 Wire Wire Line
 	5300 1350 5300 1450
+Text GLabel 6900 1950 0    50   Input ~ 0
+IC_A6
+Text GLabel 6900 2050 0    50   Input ~ 0
+IC_A5
+Text GLabel 6900 2150 0    50   Input ~ 0
+IC_A4
+Text GLabel 6900 2250 0    50   Input ~ 0
+IC_A3
+Text GLabel 6900 2350 0    50   Input ~ 0
+IC_A2
+Text GLabel 6900 2450 0    50   Input ~ 0
+IC_A1
+$Comp
+L Solenoid_Valve-rescue:ULN2003D1013TR-dk_Transistors-Bipolar-BJT-Arrays Q1
+U 1 1 5DC2DB55
+P 7500 2150
+F 0 "Q1" H 6999 2694 60  0000 L CNN
+F 1 "ULN2004D1013TR" H 7507 1600 60  0000 L CNN
+F 2 "digikey-footprints:SOIC-16_W3.90mm" H 7700 2350 60  0001 L CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf" H 7700 2450 60  0001 L CNN
+F 4 "497-2345-1-ND" H 7700 2550 60  0001 L CNN "Digi-Key_PN"
+F 5 "ULN2003D1013TR" H 7700 2650 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 7700 2750 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Arrays" H 7700 2850 60  0001 L CNN "Family"
+F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf" H 7700 2950 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/stmicroelectronics/ULN2003D1013TR/497-2345-1-ND/599201" H 7700 3050 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC PWR RELAY 7NPN 1:1 16SO" H 7700 3150 60  0001 L CNN "Description"
+F 11 "STMicroelectronics" H 7700 3250 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7700 3350 60  0001 L CNN "Status"
+	1    7500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 5FA2B975
+P 5550 4000
+F 0 "C10" H 5575 4100 50  0000 L CNN
+F 1 "10u" H 5575 3900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5588 3850 50  0001 C CNN
+F 3 "~" H 5550 4000 50  0001 C CNN
+	1    5550 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 5FA309ED
+P 5950 4000
+F 0 "C11" H 5975 4100 50  0000 L CNN
+F 1 "10u" H 5975 3900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5988 3850 50  0001 C CNN
+F 3 "~" H 5950 4000 50  0001 C CNN
+	1    5950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR058
+U 1 1 5FA369E5
+P 5750 4150
+F 0 "#PWR058" H 5750 3950 50  0001 C CNN
+F 1 "GNDPWR" H 5750 4020 50  0000 C CNN
+F 2 "" H 5750 4100 50  0001 C CNN
+F 3 "" H 5750 4100 50  0001 C CNN
+	1    5750 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR057
+U 1 1 5FA42039
+P 5750 3850
+F 0 "#PWR057" H 5750 3700 50  0001 C CNN
+F 1 "+12V" H 5750 3990 50  0000 C CNN
+F 2 "" H 5750 3850 50  0001 C CNN
+F 3 "" H 5750 3850 50  0001 C CNN
+	1    5750 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3850 5750 3850
+Connection ~ 5750 3850
+Wire Wire Line
+	5750 3850 5950 3850
+Wire Wire Line
+	5550 4150 5750 4150
+Connection ~ 5750 4150
+Wire Wire Line
+	5750 4150 5950 4150
 $EndSCHEMATC
