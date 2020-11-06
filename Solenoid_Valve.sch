@@ -223,7 +223,7 @@ F 3 "~" H 1700 1800 50  0001 C CNN
 $EndComp
 Text GLabel 5750 3400 0    50   Input ~ 0
 NRST
-Text GLabel 3200 1600 0    50   Input ~ 0
+Text GLabel 3100 1600 0    50   Input ~ 0
 NRST
 Text GLabel 4200 3100 2    50   Input ~ 0
 VCP_RX
@@ -274,32 +274,21 @@ $EndComp
 $Comp
 L Device:R R1
 U 1 1 5D5AB267
-P 2650 3100
-F 0 "R1" V 2443 3100 50  0000 C CNN
-F 1 "10K" V 2534 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2580 3100 50  0001 C CNN
-F 3 "~" H 2650 3100 50  0001 C CNN
-	1    2650 3100
+P 2550 1800
+F 0 "R1" V 2343 1800 50  0000 C CNN
+F 1 "10K" V 2434 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2480 1800 50  0001 C CNN
+F 3 "~" H 2550 1800 50  0001 C CNN
+	1    2550 1800
 	0    1    1    0   
 $EndComp
-Text Label 2850 3100 0    50   ~ 0
+Text Label 2750 1800 0    50   ~ 0
 BOOT
 Text GLabel 5900 1450 2    50   Output ~ 0
 DIP_SW_2
 Connection ~ 3700 3300
 Wire Wire Line
-	3200 3100 2800 3100
-$Comp
-L MCU_ST_STM32F0:STM32F042K6Tx U3
-U 1 1 5DA7A10A
-P 3700 2300
-F 0 "U3" H 3700 1211 50  0000 C CNN
-F 1 "STM32F042K6Tx" H 3700 1120 50  0000 C CNN
-F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 3300 1400 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00105814.pdf" H 3700 2300 50  0001 C CNN
-	1    3700 2300
-	1    0    0    -1  
-$EndComp
+	3100 1800 2700 1800
 Wire Wire Line
 	5750 3300 5300 3300
 Wire Wire Line
@@ -428,12 +417,12 @@ $EndComp
 $Comp
 L power:+12V #PWR015
 U 1 1 5DC383C2
-P 8100 1750
-F 0 "#PWR015" H 8100 1600 50  0001 C CNN
-F 1 "+12V" H 8100 1890 50  0000 C CNN
-F 2 "" H 8100 1750 50  0001 C CNN
-F 3 "" H 8100 1750 50  0001 C CNN
-	1    8100 1750
+P 7900 1750
+F 0 "#PWR015" H 7900 1600 50  0001 C CNN
+F 1 "+12V" H 7900 1890 50  0000 C CNN
+F 2 "" H 7900 1750 50  0001 C CNN
+F 3 "" H 7900 1750 50  0001 C CNN
+	1    7900 1750
 	0    1    1    0   
 $EndComp
 $Comp
@@ -458,13 +447,9 @@ F 3 "" H 9350 1350 50  0001 C CNN
 	1    9350 1350
 	1    0    0    -1  
 $EndComp
-Text GLabel 3200 2900 0    50   Input ~ 0
-DIP_SW_2
-Text GLabel 3200 3000 0    50   Input ~ 0
-IC_A1
-Text GLabel 8100 1950 2    50   UnSpc ~ 0
+Text GLabel 7900 2050 2    50   UnSpc ~ 0
 Solenoid_A6
-Text GLabel 8100 4750 2    50   UnSpc ~ 0
+Text GLabel 7900 5450 2    50   UnSpc ~ 0
 Solenoid_C4
 Wire Wire Line
 	9450 1350 9450 1450
@@ -491,80 +476,58 @@ $EndComp
 Text GLabel 9250 1650 0    50   UnSpc ~ 0
 Solenoid_B2
 $Comp
-L power:GNDPWR #PWR038
-U 1 1 5DC99C96
-P 7500 4150
-F 0 "#PWR038" H 7500 3950 50  0001 C CNN
-F 1 "GNDPWR" H 7500 4020 50  0000 C CNN
-F 2 "" H 7500 4100 50  0001 C CNN
-F 3 "" H 7500 4100 50  0001 C CNN
-	1    7500 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+12V #PWR025
 U 1 1 5DC99C9C
-P 8100 3150
-F 0 "#PWR025" H 8100 3000 50  0001 C CNN
-F 1 "+12V" H 8100 3290 50  0000 C CNN
-F 2 "" H 8100 3150 50  0001 C CNN
-F 3 "" H 8100 3150 50  0001 C CNN
-	1    8100 3150
+P 7900 3450
+F 0 "#PWR025" H 7900 3300 50  0001 C CNN
+F 1 "+12V" H 7900 3590 50  0000 C CNN
+F 2 "" H 7900 3450 50  0001 C CNN
+F 3 "" H 7900 3450 50  0001 C CNN
+	1    7900 3450
 	0    1    1    0   
 $EndComp
-Text GLabel 8100 3850 2    50   UnSpc ~ 0
+Text GLabel 7900 4250 2    50   UnSpc ~ 0
 Solenoid_B1
-Text GLabel 8100 3750 2    50   UnSpc ~ 0
+Text GLabel 7900 4150 2    50   UnSpc ~ 0
 Solenoid_B2
-Text GLabel 8100 3650 2    50   UnSpc ~ 0
+Text GLabel 7900 4050 2    50   UnSpc ~ 0
 Solenoid_B3
-Text GLabel 8100 3550 2    50   UnSpc ~ 0
+Text GLabel 7900 3950 2    50   UnSpc ~ 0
 Solenoid_B4
-Text GLabel 8100 3450 2    50   UnSpc ~ 0
+Text GLabel 7900 3850 2    50   UnSpc ~ 0
 Solenoid_B5
-Text GLabel 8100 3350 2    50   UnSpc ~ 0
+Text GLabel 7900 3750 2    50   UnSpc ~ 0
 Solenoid_B6
-Text GLabel 8100 4650 2    50   UnSpc ~ 0
+Text GLabel 7900 5350 2    50   UnSpc ~ 0
 Solenoid_C5
-Text GLabel 6900 3850 0    50   Input ~ 0
+Text GLabel 7100 4250 0    50   Input ~ 0
 IC_B1
-Text GLabel 6900 3750 0    50   Input ~ 0
+Text GLabel 7100 4150 0    50   Input ~ 0
 IC_B2
-Text GLabel 6900 3650 0    50   Input ~ 0
+Text GLabel 7100 4050 0    50   Input ~ 0
 IC_B3
-Text GLabel 6900 3550 0    50   Input ~ 0
+Text GLabel 7100 3950 0    50   Input ~ 0
 IC_B4
-Text GLabel 6900 3450 0    50   Input ~ 0
+Text GLabel 7100 3850 0    50   Input ~ 0
 IC_B5
-Text GLabel 6900 3350 0    50   Input ~ 0
+Text GLabel 7100 3750 0    50   Input ~ 0
 IC_B6
-$Comp
-L power:GNDPWR #PWR048
-U 1 1 5DCA181F
-P 7500 5550
-F 0 "#PWR048" H 7500 5350 50  0001 C CNN
-F 1 "GNDPWR" H 7500 5420 50  0000 C CNN
-F 2 "" H 7500 5500 50  0001 C CNN
-F 3 "" H 7500 5500 50  0001 C CNN
-	1    7500 5550
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+12V #PWR040
 U 1 1 5DCA1825
-P 8100 4550
-F 0 "#PWR040" H 8100 4400 50  0001 C CNN
-F 1 "+12V" H 8100 4690 50  0000 C CNN
-F 2 "" H 8100 4550 50  0001 C CNN
-F 3 "" H 8100 4550 50  0001 C CNN
-	1    8100 4550
+P 7900 5150
+F 0 "#PWR040" H 7900 5000 50  0001 C CNN
+F 1 "+12V" H 7900 5290 50  0000 C CNN
+F 2 "" H 7900 5150 50  0001 C CNN
+F 3 "" H 7900 5150 50  0001 C CNN
+	1    7900 5150
 	0    1    1    0   
 $EndComp
-Text GLabel 8100 5050 2    50   UnSpc ~ 0
+Text GLabel 7900 5750 2    50   UnSpc ~ 0
 Solenoid_C1
-Text GLabel 8100 4950 2    50   UnSpc ~ 0
+Text GLabel 7900 5650 2    50   UnSpc ~ 0
 Solenoid_C2
-Text GLabel 8100 4850 2    50   UnSpc ~ 0
+Text GLabel 7900 5550 2    50   UnSpc ~ 0
 Solenoid_C3
 $Comp
 L Connector_Generic:Conn_01x02 J6
@@ -656,10 +619,8 @@ F 3 "~" H 9250 900 50  0001 C CNN
 $EndComp
 Text GLabel 9250 1050 0    50   UnSpc ~ 0
 Solenoid_B1
-NoConn ~ 8100 5150
-NoConn ~ 8100 5250
-NoConn ~ 6900 5250
-NoConn ~ 6900 5150
+NoConn ~ 7900 5850
+NoConn ~ 7900 5950
 Text GLabel 4200 2700 2    50   Input ~ 0
 CAN_RD
 Text GLabel 4200 2800 2    50   Output ~ 0
@@ -770,20 +731,6 @@ F 3 "" H 5750 3150 50  0001 C CNN
 	1    5750 3200
 	0    1    1    0   
 $EndComp
-Text GLabel 3200 2500 0    50   Output ~ 0
-IC_B6
-Text GLabel 3200 2400 0    50   Output ~ 0
-IC_B5
-Text GLabel 3200 2600 0    50   Output ~ 0
-IC_C4
-Text GLabel 3200 2700 0    50   Output ~ 0
-IC_C5
-Text GLabel 3200 2800 0    50   Input ~ 0
-DIP_SW_1
-Text GLabel 3200 2200 0    50   Output ~ 0
-IC_A3
-Text GLabel 3200 2100 0    50   Output ~ 0
-IC_A2
 $Comp
 L power:GNDPWR #PWR043
 U 1 1 5DF13DE4
@@ -930,7 +877,7 @@ L power:GNDPWR #PWR016
 U 1 1 5DF51C19
 P 5250 1900
 F 0 "#PWR016" H 5250 1700 50  0001 C CNN
-F 1 "GNDPWR" H 5250 1770 50  0000 C CNN
+F 1 "GNDPWR" V 5254 1791 50  0000 R CNN
 F 2 "" H 5250 1850 50  0001 C CNN
 F 3 "" H 5250 1850 50  0001 C CNN
 	1    5250 1900
@@ -939,12 +886,12 @@ $EndComp
 $Comp
 L power:GNDPWR #PWR024
 U 1 1 5E334F41
-P 2500 3100
-F 0 "#PWR024" H 2500 2900 50  0001 C CNN
-F 1 "GNDPWR" H 2500 2970 50  0000 C CNN
-F 2 "" H 2500 3050 50  0001 C CNN
-F 3 "" H 2500 3050 50  0001 C CNN
-	1    2500 3100
+P 2400 1800
+F 0 "#PWR024" H 2400 1600 50  0001 C CNN
+F 1 "GNDPWR" H 2400 1670 50  0000 C CNN
+F 2 "" H 2400 1750 50  0001 C CNN
+F 3 "" H 2400 1750 50  0001 C CNN
+	1    2400 1800
 	1    0    0    -1  
 $EndComp
 Text GLabel 4200 2400 2    50   Output ~ 0
@@ -969,8 +916,8 @@ $Comp
 L Regulator_Linear:LD1117S33TR_SOT223 U4
 U 1 1 5DD7E358
 P 4300 4200
-F 0 "U4" H 4150 4325 50  0000 C CNN
-F 1 "AP2210N-3.3TRG1" H 4300 4325 50  0000 L CNN
+F 0 "U4" H 4300 4442 50  0000 C CNN
+F 1 "AP2210N-3.3TRG1" H 4300 4351 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 4300 4400 50  0001 C CNN
 F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 4400 3950 50  0001 C CNN
 	1    4300 4200
@@ -1052,7 +999,6 @@ Wire Wire Line
 	1000 7100 1150 7100
 Wire Wire Line
 	1150 6900 1150 7100
-Connection ~ 1150 7100
 $Comp
 L power:+5V #PWR050
 U 1 1 5DE826CA
@@ -1120,8 +1066,8 @@ $Comp
 L Switch:SW_DIP_x04 S1
 U 1 1 5DD6F810
 P 5600 1550
-F 0 "S1" H 5769 1815 50  0000 L CNN
-F 1 "IKD0403101" H 5769 1724 50  0000 L CNN
+F 0 "S1" H 5600 2017 50  0000 C CNN
+F 1 "IKD0403101" H 5600 1926 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 6250 1650 50  0001 L CNN
 F 3 "" H 6250 1550 50  0001 L CNN
 F 4 "" H 6250 1450 50  0001 L CNN "Description"
@@ -1140,21 +1086,12 @@ Text GLabel 5300 1150 1    50   Input ~ 0
 3.3V
 NoConn ~ 5900 1550
 NoConn ~ 5900 1650
-NoConn ~ 7800 -1200
-Text GLabel 8100 2050 2    50   UnSpc ~ 0
+Text GLabel 7900 2150 2    50   UnSpc ~ 0
 Solenoid_A5
-Text GLabel 8100 2150 2    50   UnSpc ~ 0
+Text GLabel 7900 2250 2    50   UnSpc ~ 0
 Solenoid_A4
-NoConn ~ 6900 1850
-NoConn ~ 8100 1850
-Text GLabel 6900 4950 0    50   Input ~ 0
-IC_C2
-Text GLabel 6900 5050 0    50   Input ~ 0
-IC_C1
-Text GLabel 6900 4650 0    50   Input ~ 0
-IC_C5
-Text GLabel 6900 4750 0    50   Input ~ 0
-IC_C4
+NoConn ~ 7100 1950
+NoConn ~ 7900 1950
 $Comp
 L Connector_Generic:Conn_01x02 J17
 U 1 1 5DCD296C
@@ -1801,97 +1738,23 @@ F 3 "~" H 10850 4650 50  0001 C CNN
 $EndComp
 Text GLabel 9250 2250 0    50   UnSpc ~ 0
 Solenoid_B3
-Text GLabel 8100 2350 2    50   UnSpc ~ 0
+Text GLabel 7900 2450 2    50   UnSpc ~ 0
 Solenoid_A2
-Text GLabel 8100 2450 2    50   UnSpc ~ 0
+Text GLabel 7900 2550 2    50   UnSpc ~ 0
 Solenoid_A1
-Text GLabel 8100 2250 2    50   UnSpc ~ 0
+Text GLabel 7900 2350 2    50   UnSpc ~ 0
 Solenoid_A3
-$Comp
-L Solenoid_Valve-rescue:ULN2003D1013TR-dk_Transistors-Bipolar-BJT-Arrays Q2
-U 1 1 5DC99CAB
-P 7500 3550
-F 0 "Q2" H 6999 4094 60  0000 L CNN
-F 1 "ULN2004D1013TR" H 7507 3000 60  0000 L CNN
-F 2 "digikey-footprints:SOIC-16_W3.90mm" H 7700 3750 60  0001 L CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf" H 7700 3850 60  0001 L CNN
-F 4 "497-2345-1-ND" H 7700 3950 60  0001 L CNN "Digi-Key_PN"
-F 5 "ULN2003D1013TR" H 7700 4050 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 7700 4150 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Arrays" H 7700 4250 60  0001 L CNN "Family"
-F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf" H 7700 4350 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/stmicroelectronics/ULN2003D1013TR/497-2345-1-ND/599201" H 7700 4450 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC PWR RELAY 7NPN 1:1 16SO" H 7700 4550 60  0001 L CNN "Description"
-F 11 "STMicroelectronics" H 7700 4650 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7700 4750 60  0001 L CNN "Status"
-	1    7500 3550
-	1    0    0    -1  
-$EndComp
-NoConn ~ 6900 3250
-NoConn ~ 8100 3250
+NoConn ~ 7100 3650
+NoConn ~ 7900 3650
 Text GLabel 4200 2500 2    50   Output ~ 0
 IC_C2
 Text GLabel 4200 2600 2    50   Output ~ 0
 IC_C1
-$Comp
-L Solenoid_Valve-rescue:ULN2003D1013TR-dk_Transistors-Bipolar-BJT-Arrays Q3
-U 1 1 5DCA1834
-P 7500 4950
-F 0 "Q3" H 6999 5494 60  0000 L CNN
-F 1 "ULN2004D1013TR" H 7507 4400 60  0000 L CNN
-F 2 "digikey-footprints:SOIC-16_W3.90mm" H 7700 5150 60  0001 L CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf" H 7700 5250 60  0001 L CNN
-F 4 "497-2345-1-ND" H 7700 5350 60  0001 L CNN "Digi-Key_PN"
-F 5 "ULN2003D1013TR" H 7700 5450 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 7700 5550 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Arrays" H 7700 5650 60  0001 L CNN "Family"
-F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf" H 7700 5750 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/stmicroelectronics/ULN2003D1013TR/497-2345-1-ND/599201" H 7700 5850 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC PWR RELAY 7NPN 1:1 16SO" H 7700 5950 60  0001 L CNN "Description"
-F 11 "STMicroelectronics" H 7700 6050 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7700 6150 60  0001 L CNN "Status"
-	1    7500 4950
-	1    0    0    -1  
-$EndComp
-Text GLabel 6900 4850 0    50   Input ~ 0
-IC_C3
 Text GLabel 5900 1350 2    50   Output ~ 0
 DIP_SW_1
 Connection ~ 5300 1350
 Wire Wire Line
 	5300 1350 5300 1450
-Text GLabel 6900 1950 0    50   Input ~ 0
-IC_A6
-Text GLabel 6900 2050 0    50   Input ~ 0
-IC_A5
-Text GLabel 6900 2150 0    50   Input ~ 0
-IC_A4
-Text GLabel 6900 2250 0    50   Input ~ 0
-IC_A3
-Text GLabel 6900 2350 0    50   Input ~ 0
-IC_A2
-Text GLabel 6900 2450 0    50   Input ~ 0
-IC_A1
-$Comp
-L Solenoid_Valve-rescue:ULN2003D1013TR-dk_Transistors-Bipolar-BJT-Arrays Q1
-U 1 1 5DC2DB55
-P 7500 2150
-F 0 "Q1" H 6999 2694 60  0000 L CNN
-F 1 "ULN2004D1013TR" H 7507 1600 60  0000 L CNN
-F 2 "digikey-footprints:SOIC-16_W3.90mm" H 7700 2350 60  0001 L CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf" H 7700 2450 60  0001 L CNN
-F 4 "497-2345-1-ND" H 7700 2550 60  0001 L CNN "Digi-Key_PN"
-F 5 "ULN2003D1013TR" H 7700 2650 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 7700 2750 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Arrays" H 7700 2850 60  0001 L CNN "Family"
-F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/f3/6e/c8/64/4d/b3/4e/38/CD00001244.pdf/files/CD00001244.pdf/jcr:content/translations/en.CD00001244.pdf" H 7700 2950 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/stmicroelectronics/ULN2003D1013TR/497-2345-1-ND/599201" H 7700 3050 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC PWR RELAY 7NPN 1:1 16SO" H 7700 3150 60  0001 L CNN "Description"
-F 11 "STMicroelectronics" H 7700 3250 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7700 3350 60  0001 L CNN "Status"
-	1    7500 2150
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C10
 U 1 1 5FA2B975
@@ -1946,4 +1809,112 @@ Wire Wire Line
 Connection ~ 5750 4150
 Wire Wire Line
 	5750 4150 5950 4150
+$Comp
+L MCU_ST_STM32F3:STM32F303K8Tx U3
+U 1 1 5FA84E22
+P 3700 2300
+F 0 "U3" H 3650 1211 50  0000 C CNN
+F 1 "STM32F303K8Tx" H 3650 1120 50  0000 C CNN
+F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 3200 1400 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00092070.pdf" H 3700 2300 50  0001 C CNN
+	1    3700 2300
+	1    0    0    -1  
+$EndComp
+Text GLabel 3100 2900 0    50   Input ~ 0
+DIP_SW_1
+Text GLabel 3100 2800 0    50   Output ~ 0
+IC_C5
+Text GLabel 3100 2700 0    50   Output ~ 0
+IC_C4
+Text GLabel 3100 2500 0    50   Output ~ 0
+IC_B5
+Text GLabel 3100 2600 0    50   Output ~ 0
+IC_B6
+Text GLabel 3100 3100 0    50   Input ~ 0
+IC_A1
+Text GLabel 3100 3000 0    50   Input ~ 0
+DIP_SW_2
+$Comp
+L Transistor_Array:ULN2004 U6
+U 1 1 5FB008BC
+P 7500 2150
+F 0 "U6" H 7500 2817 50  0000 C CNN
+F 1 "ULN2004" H 7500 2726 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7550 1600 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 7600 1950 50  0001 C CNN
+	1    7500 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 7100 2550 0    50   Input ~ 0
+IC_A1
+Text GLabel 7100 2250 0    50   Input ~ 0
+IC_A4
+Text GLabel 7100 2150 0    50   Input ~ 0
+IC_A5
+Text GLabel 7100 2050 0    50   Input ~ 0
+IC_A6
+$Comp
+L Transistor_Array:ULN2004 U7
+U 1 1 5FB39E24
+P 7500 3850
+F 0 "U7" H 7500 4517 50  0000 C CNN
+F 1 "ULN2004" H 7500 4426 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7550 3300 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 7600 3650 50  0001 C CNN
+	1    7500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_Array:ULN2004 U8
+U 1 1 5FB343C2
+P 7500 5550
+F 0 "U8" H 7500 6217 50  0000 C CNN
+F 1 "ULN2004" H 7500 6126 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7550 5000 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 7600 5350 50  0001 C CNN
+	1    7500 5550
+	1    0    0    -1  
+$EndComp
+Text GLabel 7100 5550 0    50   Input ~ 0
+IC_C3
+Text GLabel 7100 5450 0    50   Input ~ 0
+IC_C4
+Text GLabel 7100 5350 0    50   Input ~ 0
+IC_C5
+Text GLabel 7100 5750 0    50   Input ~ 0
+IC_C1
+Text GLabel 7100 5650 0    50   Input ~ 0
+IC_C2
+NoConn ~ 7100 5850
+NoConn ~ 7100 5950
+$Comp
+L power:GNDPWR #PWR038
+U 1 1 5FB5DA64
+P 7500 4450
+F 0 "#PWR038" H 7500 4250 50  0001 C CNN
+F 1 "GNDPWR" H 7500 4320 50  0000 C CNN
+F 2 "" H 7500 4400 50  0001 C CNN
+F 3 "" H 7500 4400 50  0001 C CNN
+	1    7500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR048
+U 1 1 5FB630EC
+P 7500 6150
+F 0 "#PWR048" H 7500 5950 50  0001 C CNN
+F 1 "GNDPWR" H 7500 6020 50  0000 C CNN
+F 2 "" H 7500 6100 50  0001 C CNN
+F 3 "" H 7500 6100 50  0001 C CNN
+	1    7500 6150
+	1    0    0    -1  
+$EndComp
+Text GLabel 3100 2300 0    50   Output ~ 0
+IC_A3
+Text GLabel 3100 2200 0    50   Output ~ 0
+IC_A2
+Text GLabel 7100 2350 0    50   Input ~ 0
+IC_A3
+Text GLabel 7100 2450 0    50   Input ~ 0
+IC_A2
 $EndSCHEMATC
