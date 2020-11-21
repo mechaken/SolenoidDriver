@@ -1834,17 +1834,6 @@ Text GLabel 3100 3100 0    50   Input ~ 0
 IC_A1
 Text GLabel 3100 3000 0    50   Input ~ 0
 DIP_SW_2
-$Comp
-L Transistor_Array:ULN2004 U6
-U 1 1 5FB008BC
-P 7500 2150
-F 0 "U6" H 7500 2817 50  0000 C CNN
-F 1 "ULN2004" H 7500 2726 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7550 1600 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 7600 1950 50  0001 C CNN
-	1    7500 2150
-	1    0    0    -1  
-$EndComp
 Text GLabel 7100 2550 0    50   Input ~ 0
 IC_A1
 Text GLabel 7100 2250 0    50   Input ~ 0
@@ -1854,22 +1843,22 @@ IC_A5
 Text GLabel 7100 2050 0    50   Input ~ 0
 IC_A6
 $Comp
-L Transistor_Array:ULN2004 U7
+L Transistor_Array:ULN2003 U7
 U 1 1 5FB39E24
 P 7500 3850
 F 0 "U7" H 7500 4517 50  0000 C CNN
-F 1 "ULN2004" H 7500 4426 50  0000 C CNN
+F 1 "ULN2003" H 7500 4426 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7550 3300 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 7600 3650 50  0001 C CNN
 	1    7500 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_Array:ULN2004 U8
+L Transistor_Array:ULN2003 U8
 U 1 1 5FB343C2
 P 7500 5550
 F 0 "U8" H 7500 6217 50  0000 C CNN
-F 1 "ULN2004" H 7500 6126 50  0000 C CNN
+F 1 "ULN2003" H 7500 6126 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7550 5000 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 7600 5350 50  0001 C CNN
 	1    7500 5550
@@ -1917,4 +1906,15 @@ Text GLabel 7100 2350 0    50   Input ~ 0
 IC_A3
 Text GLabel 7100 2450 0    50   Input ~ 0
 IC_A2
+$Comp
+L Transistor_Array:ULN2003 U6
+U 1 1 5FB008BC
+P 7500 2150
+F 0 "U6" H 7500 2817 50  0000 C CNN
+F 1 "ULN2003" H 7500 2726 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7550 1600 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 7600 1950 50  0001 C CNN
+	1    7500 2150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
